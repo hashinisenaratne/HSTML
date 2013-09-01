@@ -2125,8 +2125,13 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 		pi.pain.setDrawingEnabled(inside && original_drawing_state);
 		
 		int inc_x=x;							//save x position of the row to a new variable		
-		inc_x-=100;								//sliding all the rows with 10 pixels
-			
+		int cur_x=cur.targetX();        		//current x position of the cursor
+		BufferView & bv = cur.bv();				//creating new BufferView to get relavent info
+		int const maxwidth = bv.workWidth();	//current screenwidth
+		if (cur_x >= maxwidth)					//slide only if the cursor is beyond screen limits
+		{
+			inc_x-=(cur_x-maxwidth)+10;
+		}
 		RowPainter rp(pi, *text_, pit, row, bidi, inc_x, y);	//initialize Rowpainter with new x
 
 		if (selection)
