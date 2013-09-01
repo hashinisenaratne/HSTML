@@ -538,7 +538,8 @@ Row const & Cursor::textRow() const
 {
 	CursorSlice const & cs = innerTextSlice();
 	ParagraphMetrics const & pm = bv().parMetrics(cs.text(), cs.pit());
-	return pm.getRow(pos(), boundary());
+	bool const bndry = inTexted() ? boundary() : false;
+	return pm.getRow(cs.pos(), bndry);
 }
 
 int Cursor::getLeftEdge() const
