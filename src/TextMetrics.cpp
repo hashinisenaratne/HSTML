@@ -2124,15 +2124,39 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 		// It is not needed to draw on screen if we are not inside.
 		pi.pain.setDrawingEnabled(inside && original_drawing_state);
 		
-		int inc_x=x;							//save x position of the row to a new variable		
-		int cur_x=cur.targetX();        		//current x position of the cursor
-		BufferView & bv = cur.bv();				//creating new BufferView to get relavent info
-		int const maxwidth = bv.workWidth();	//current screenwidth
-		if (cur_x >= maxwidth)					//slide only if the cursor is beyond screen limits
+		BufferView & bv = cur.bv();		
+		//current screen width in pixels
+		int const screen_width = bv.workWidth();
+		//current x position of the cursor in pixels
+		int cur_x=bv.getPos(cur).x_;
+		//left edge value of the screen in pixels
+		int left_edge=cur.getLeftEdge();
+		//new x value modified to handle horizontal scrolling
+		int new_x=x;	
+
+		// condition to handle horizontal sliding for too long insects
+   		if (&cur.textRow() == &row)
 		{
-			inc_x-=(cur_x-maxwidth)+10;
+			//if no need to slide from current position
+   			if(cur_x<(left_edge+screen_width) 
+				&& cur_x>left_edge){
+				new_x-=(left_edge);
+			}
+
+			//if need to slide right
+    			else if(cur_x<=left_edge){
+				new_x-=(cur_x-10);
+				cur.setLeftEdge(left_edge-(left_edge-cur_x)-10);
+			}
+    			
+			//if need to slide left
+			else if(cur_x>=(left_edge+screen_width)){
+				new_x-=(cur_x-(0+screen_width))+10;
+				cur.setLeftEdge(left_edge+(cur_x-(left_edge+screen_width))+10);
+			}
 		}
-		RowPainter rp(pi, *text_, pit, row, bidi, inc_x, y);	//initialize Rowpainter with new x
+
+		RowPainter rp(pi, *text_, pit, row, bidi, new_x, y);
 
 		if (selection)
 			row.setSelectionAndMargins(sel_beg_par, sel_end_par);
