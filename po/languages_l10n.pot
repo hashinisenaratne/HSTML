@@ -1,0 +1,368 @@
+#: lib/languages:73
+msgid "Ignore"
+msgstr ""
+
+#: lib/languages:81
+msgid "LaTeX"
+msgstr ""
+
+#: lib/languages:92
+msgid "Afrikaans"
+msgstr ""
+
+#: lib/languages:100
+msgid "Albanian"
+msgstr ""
+
+#: lib/languages:109
+msgid "English (USA)"
+msgstr ""
+
+#: lib/languages:120
+msgid "Greek (ancient)"
+msgstr ""
+
+#: lib/languages:131
+msgid "Arabic (ArabTeX)"
+msgstr ""
+
+#: lib/languages:141
+msgid "Arabic (Arabi)"
+msgstr ""
+
+#: lib/languages:153
+msgid "Armenian"
+msgstr ""
+
+#: lib/languages:161
+msgid "English (Australia)"
+msgstr ""
+
+#: lib/languages:172
+msgid "German (Austria, old spelling)"
+msgstr ""
+
+#: lib/languages:181
+msgid "German (Austria)"
+msgstr ""
+
+#: lib/languages:189
+msgid "Indonesian"
+msgstr ""
+
+#: lib/languages:198
+msgid "Malay"
+msgstr ""
+
+#: lib/languages:207
+msgid "Basque"
+msgstr ""
+
+#: lib/languages:220
+msgid "Belarusian"
+msgstr ""
+
+#: lib/languages:229
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: lib/languages:238
+msgid "Breton"
+msgstr ""
+
+#: lib/languages:247
+msgid "English (UK)"
+msgstr ""
+
+#: lib/languages:257
+msgid "Bulgarian"
+msgstr ""
+
+#: lib/languages:267
+msgid "English (Canada)"
+msgstr ""
+
+#: lib/languages:278
+msgid "French (Canada)"
+msgstr ""
+
+#: lib/languages:288
+msgid "Catalan"
+msgstr ""
+
+#: lib/languages:299
+msgid "Chinese (simplified)"
+msgstr ""
+
+#: lib/languages:308
+msgid "Chinese (traditional)"
+msgstr ""
+
+#: lib/languages:317
+msgid "Coptic"
+msgstr ""
+
+#: lib/languages:324
+msgid "Croatian"
+msgstr ""
+
+#: lib/languages:333
+msgid "Czech"
+msgstr ""
+
+#: lib/languages:342
+msgid "Danish"
+msgstr ""
+
+#: lib/languages:352
+msgid "Divehi (Maldivian)"
+msgstr ""
+
+#: lib/languages:359
+msgid "Dutch"
+msgstr ""
+
+#: lib/languages:369
+msgid "English"
+msgstr ""
+
+#: lib/languages:380
+msgid "Esperanto"
+msgstr ""
+
+#: lib/languages:389
+msgid "Estonian"
+msgstr ""
+
+#: lib/languages:403
+msgid "Farsi"
+msgstr ""
+
+#: lib/languages:416
+msgid "Finnish"
+msgstr ""
+
+#: lib/languages:426
+msgid "French"
+msgstr ""
+
+#: lib/languages:441
+msgid "Galician"
+msgstr ""
+
+#: lib/languages:454
+msgid "German (old spelling)"
+msgstr ""
+
+#: lib/languages:465
+msgid "German"
+msgstr ""
+
+#: lib/languages:477
+msgid "German (Switzerland)"
+msgstr ""
+
+#: lib/languages:487
+msgid "Greek"
+msgstr ""
+
+#: lib/languages:497
+msgid "Greek (polytonic)"
+msgstr ""
+
+#: lib/languages:508
+msgid "Hebrew"
+msgstr ""
+
+#: lib/languages:520
+msgid "Hindi"
+msgstr ""
+
+#: lib/languages:538
+msgid "Icelandic"
+msgstr ""
+
+#: lib/languages:549
+msgid "Interlingua"
+msgstr ""
+
+#: lib/languages:557
+msgid "Irish"
+msgstr ""
+
+#: lib/languages:566
+msgid "Italian"
+msgstr ""
+
+#: lib/languages:580
+msgid "Japanese"
+msgstr ""
+
+#: lib/languages:591
+msgid "Japanese (CJK)"
+msgstr ""
+
+#: lib/languages:600
+msgid "Kazakh"
+msgstr ""
+
+#: lib/languages:610
+msgid "Korean"
+msgstr ""
+
+#: lib/languages:619
+msgid "Kurmanji"
+msgstr ""
+
+#: lib/languages:628
+msgid "Lao"
+msgstr ""
+
+#: lib/languages:637
+msgid "Latin"
+msgstr ""
+
+#: lib/languages:647
+msgid "Latvian"
+msgstr ""
+
+#: lib/languages:659
+msgid "Lithuanian"
+msgstr ""
+
+#: lib/languages:669
+msgid "Lower Sorbian"
+msgstr ""
+
+#: lib/languages:678
+msgid "Hungarian"
+msgstr ""
+
+#: lib/languages:688
+msgid "Marathi"
+msgstr ""
+
+#: lib/languages:698
+msgid "Mongolian"
+msgstr ""
+
+#: lib/languages:706
+msgid "English (New Zealand)"
+msgstr ""
+
+#: lib/languages:716
+msgid "Norwegian (Bokmaal)"
+msgstr ""
+
+#: lib/languages:725
+msgid "Norwegian (Nynorsk)"
+msgstr ""
+
+#: lib/languages:735
+msgid "Occitan"
+msgstr ""
+
+#: lib/languages:753
+msgid "Polish"
+msgstr ""
+
+#: lib/languages:762
+msgid "Portuguese"
+msgstr ""
+
+#: lib/languages:771
+msgid "Romanian"
+msgstr ""
+
+#: lib/languages:780
+msgid "Russian"
+msgstr ""
+
+#: lib/languages:789
+msgid "North Sami"
+msgstr ""
+
+#: lib/languages:798
+msgid "Sanskrit"
+msgstr ""
+
+#: lib/languages:805
+msgid "Scottish"
+msgstr ""
+
+#: lib/languages:814
+msgid "Serbian"
+msgstr ""
+
+#: lib/languages:824
+msgid "Serbian (Latin)"
+msgstr ""
+
+#: lib/languages:834
+msgid "Slovak"
+msgstr ""
+
+#: lib/languages:843
+msgid "Slovene"
+msgstr ""
+
+#: lib/languages:852
+msgid "Spanish"
+msgstr ""
+
+#: lib/languages:865
+msgid "Spanish (Mexico)"
+msgstr ""
+
+#: lib/languages:877
+msgid "Swedish"
+msgstr ""
+
+#: lib/languages:887
+msgid "Syriac"
+msgstr ""
+
+#: lib/languages:895
+msgid "Tamil"
+msgstr ""
+
+#: lib/languages:903
+msgid "Telugu"
+msgstr ""
+
+#: lib/languages:910
+msgid "Thai"
+msgstr ""
+
+#: lib/languages:923
+msgid "Tibetan"
+msgstr ""
+
+#: lib/languages:930
+msgid "Turkish"
+msgstr ""
+
+#: lib/languages:944
+msgid "Turkmen"
+msgstr ""
+
+#: lib/languages:954
+msgid "Ukrainian"
+msgstr ""
+
+#: lib/languages:963
+msgid "Upper Sorbian"
+msgstr ""
+
+#: lib/languages:973
+msgid "Urdu"
+msgstr ""
+
+#: lib/languages:983
+msgid "Vietnamese"
+msgstr ""
+
+#: lib/languages:994
+msgid "Welsh"
+msgstr ""
+

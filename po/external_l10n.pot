@@ -1,0 +1,179 @@
+#: lib/external_templates:36
+msgid "GnumericSpreadsheet"
+msgstr ""
+
+#: lib/external_templates:37
+msgid "Spreadsheet"
+msgstr ""
+
+#: lib/external_templates:39
+msgid ""
+"A spreadsheet made with Gnumeric, LibreOffice, OpenOffice or Excel.\n"
+"It imports as a long table, so any length\n"
+"is ok. Excessive width could be a problem.\n"
+"The gnumeric software is necessary for conversion,\n"
+"both for gnumeric and excel files.\n"
+
+msgstr ""
+
+#: lib/external_templates:44
+msgid "Spreadsheet"
+msgstr ""
+
+#: lib/external_templates:76
+msgid "RasterImage"
+msgstr ""
+
+#: lib/external_templates:79
+msgid "Raster image"
+msgstr ""
+
+#: lib/external_templates:84
+msgid ""
+"A bitmap file.\n"
+
+msgstr ""
+
+#: lib/external_templates:85
+msgid "Raster image"
+msgstr ""
+
+#: lib/external_templates:148
+msgid "XFig"
+msgstr ""
+
+#: lib/external_templates:149
+msgid "Xfig figure"
+msgstr ""
+
+#: lib/external_templates:151
+msgid ""
+"An Xfig figure.\n"
+
+msgstr ""
+
+#: lib/external_templates:152
+msgid "Xfig figure"
+msgstr ""
+
+#: lib/external_templates:201
+msgid "ChessDiagram"
+msgstr ""
+
+#: lib/external_templates:202
+msgid "Chess diagram"
+msgstr ""
+
+#: lib/external_templates:204
+msgid ""
+"A chess position diagram.\n"
+"This template will use XBoard to edit the position.\n"
+"Use the 'File->Save Position' in XBoard to save\n"
+"the position that you want to display.\n"
+"Make sure to give it a '.fen' extension\n"
+"and remember to type in a relative path\n"
+"to the LyX document location.\n"
+"Within XBoard, use 'Edit->Edit Position'\n"
+"to enable general editing of the board.\n"
+"You might also check out the\n"
+"'Options->Test legality' option, and\n"
+"remember to middle and right click to\n"
+"insert new material in the board.\n"
+"In order for this to work, you have to\n"
+"put the bundled lyxskak.sty in a place\n"
+"that TeX will find it, and you will need\n"
+"to install the skak package from CTAN.\n"
+
+msgstr ""
+
+#: lib/external_templates:221
+msgid "Chess diagram"
+msgstr ""
+
+#: lib/external_templates:251
+msgid "LilyPond"
+msgstr ""
+
+#: lib/external_templates:252
+msgid "Lilypond typeset music"
+msgstr ""
+
+#: lib/external_templates:254
+msgid ""
+"Sheet music typeset by GNU LilyPond,\n"
+"converted to .pdf or .eps for inclusion\n"
+"Using .eps requires at least lilypond 2.6\n"
+"Using .pdf requires at least lilypond 2.9\n"
+
+msgstr ""
+
+#: lib/external_templates:258
+msgid "Lilypond typeset music"
+msgstr ""
+
+#: lib/external_templates:300
+msgid "PDFPages"
+msgstr ""
+
+#: lib/external_templates:301
+msgid "PDF pages"
+msgstr ""
+
+#: lib/external_templates:303
+msgid ""
+"Includes PDF documents, using the 'pdfpages' package.\n"
+"To include multiple pages, use the 'pages'-option,\n"
+"which must be inserted to 'Options'.\n"
+"Examples:\n"
+"* pages={x-y} (for a range of pages)\n"
+"* pages={x,y,z} (for specific pages)\n"
+"* pages=- (to include all pages)\n"
+"* pages=last-1 (to include all pages in reverse order)\n"
+"With the option 'noautoscale' the PDF pages are\n"
+"inserted in their original size.\n"
+"Read the documentation of the pdfpages package\n"
+"for further options and details.\n"
+
+msgstr ""
+
+#: lib/external_templates:315
+msgid "PDF pages"
+msgstr ""
+
+#: lib/external_templates:343
+msgid "Date"
+msgstr ""
+
+#: lib/external_templates:344
+msgid "Date"
+msgstr ""
+
+#: lib/external_templates:346
+msgid ""
+"Today's date.\n"
+"Read 'info date' for more information.\n"
+
+msgstr ""
+
+#: lib/external_templates:348
+msgid "Date"
+msgstr ""
+
+#: lib/external_templates:375
+msgid "Dia"
+msgstr ""
+
+#: lib/external_templates:376
+msgid "Dia diagram"
+msgstr ""
+
+#: lib/external_templates:378
+msgid ""
+"Dia diagram.\n"
+
+msgstr ""
+
+#: lib/external_templates:379
+msgid "Dia diagram"
+msgstr ""
+

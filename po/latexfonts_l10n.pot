@@ -1,0 +1,308 @@
+#: lib/latexfonts:82
+msgid "AE (Almost European)"
+msgstr ""
+
+#: lib/latexfonts:90
+msgid "Bera Serif"
+msgstr ""
+
+#: lib/latexfonts:98
+msgid "Bera Serif"
+msgstr ""
+
+#: lib/latexfonts:104
+msgid "Bookman"
+msgstr ""
+
+#: lib/latexfonts:110
+msgid "Concrete Roman"
+msgstr ""
+
+#: lib/latexfonts:116
+msgid "Zapf Chancery"
+msgstr ""
+
+#: lib/latexfonts:122
+msgid "Bitstream Charter (PSNFSS)"
+msgstr ""
+
+#: lib/latexfonts:128
+msgid "Computer Modern Roman"
+msgstr ""
+
+#: lib/latexfonts:140
+msgid "URW Garamond"
+msgstr ""
+
+#: lib/latexfonts:149
+msgid "URW Garamond"
+msgstr ""
+
+#: lib/latexfonts:155
+msgid "Libertine"
+msgstr ""
+
+#: lib/latexfonts:164
+msgid "Libertine"
+msgstr ""
+
+#: lib/latexfonts:172
+msgid "Libertine"
+msgstr ""
+
+#: lib/latexfonts:179
+msgid "Latin Modern Roman"
+msgstr ""
+
+#: lib/latexfonts:186
+msgid "Latin Modern Roman"
+msgstr ""
+
+#: lib/latexfonts:193
+msgid "Bitstream Charter (Mathdesign)"
+msgstr ""
+
+#: lib/latexfonts:206
+msgid "Bitstream Charter (Mathdesign)"
+msgstr ""
+
+#: lib/latexfonts:213
+msgid "Utopia (Mathdesign)"
+msgstr ""
+
+#: lib/latexfonts:226
+msgid "Utopia (Mathdesign)"
+msgstr ""
+
+#: lib/latexfonts:233
+msgid "URW Garamond (Mathdesign)"
+msgstr ""
+
+#: lib/latexfonts:246
+msgid "URW Garamond (Mathdesign)"
+msgstr ""
+
+#: lib/latexfonts:253
+msgid "Minion Pro"
+msgstr ""
+
+#: lib/latexfonts:263
+msgid "Minion Pro"
+msgstr ""
+
+#: lib/latexfonts:272
+msgid "New Century Schoolbook"
+msgstr ""
+
+#: lib/latexfonts:278
+msgid "Palatino"
+msgstr ""
+
+#: lib/latexfonts:290
+msgid "Palatino"
+msgstr ""
+
+#: lib/latexfonts:297
+msgid "Palatino"
+msgstr ""
+
+#: lib/latexfonts:303
+msgid "Palatino"
+msgstr ""
+
+#: lib/latexfonts:310
+msgid "Palatino"
+msgstr ""
+
+#: lib/latexfonts:316
+msgid "Times Roman"
+msgstr ""
+
+#: lib/latexfonts:325
+msgid "Times Roman"
+msgstr ""
+
+#: lib/latexfonts:332
+msgid "Times Roman"
+msgstr ""
+
+#: lib/latexfonts:338
+msgid "Times Roman"
+msgstr ""
+
+#: lib/latexfonts:344
+msgid "TeX Gyre Bonum"
+msgstr ""
+
+#: lib/latexfonts:350
+msgid "TeX Gyre Chorus"
+msgstr ""
+
+#: lib/latexfonts:356
+msgid "TeX Gyre Pagella"
+msgstr ""
+
+#: lib/latexfonts:362
+msgid "TeX Gyre Schola"
+msgstr ""
+
+#: lib/latexfonts:368
+msgid "TeX Gyre Termes"
+msgstr ""
+
+#: lib/latexfonts:376
+msgid "Utopia (Fourier)"
+msgstr ""
+
+#: lib/latexfonts:387
+msgid "Utopia (Fourier)"
+msgstr ""
+
+#: lib/latexfonts:393
+msgid "Utopia (Fourier)"
+msgstr ""
+
+#: lib/latexfonts:400
+msgid "Utopia (Fourier)"
+msgstr ""
+
+#: lib/latexfonts:411
+msgid "Avant Garde"
+msgstr ""
+
+#: lib/latexfonts:417
+msgid "Bera Sans"
+msgstr ""
+
+#: lib/latexfonts:425
+msgid "Biolinum"
+msgstr ""
+
+#: lib/latexfonts:435
+msgid "Biolinum"
+msgstr ""
+
+#: lib/latexfonts:443
+msgid "CM Bright"
+msgstr ""
+
+#: lib/latexfonts:450
+msgid "Computer Modern Sans"
+msgstr ""
+
+#: lib/latexfonts:456
+msgid "Helvetica"
+msgstr ""
+
+#: lib/latexfonts:464
+msgid "Iwona"
+msgstr ""
+
+#: lib/latexfonts:471
+msgid "Iwona (Light)"
+msgstr ""
+
+#: lib/latexfonts:478
+msgid "Iwona (Condensed)"
+msgstr ""
+
+#: lib/latexfonts:485
+msgid "Iwona (Light Condensed)"
+msgstr ""
+
+#: lib/latexfonts:492
+msgid "Kurier"
+msgstr ""
+
+#: lib/latexfonts:499
+msgid "Kurier (Light)"
+msgstr ""
+
+#: lib/latexfonts:506
+msgid "Kurier (Condensed)"
+msgstr ""
+
+#: lib/latexfonts:513
+msgid "Kurier (Light Condensed)"
+msgstr ""
+
+#: lib/latexfonts:520
+msgid "Latin Modern Sans"
+msgstr ""
+
+#: lib/latexfonts:527
+msgid "TeX Gyre Adventor"
+msgstr ""
+
+#: lib/latexfonts:533
+msgid "TeX Gyre Heros"
+msgstr ""
+
+#: lib/latexfonts:539
+msgid "URW Classico (Optima)"
+msgstr ""
+
+#: lib/latexfonts:551
+msgid "Bera Mono"
+msgstr ""
+
+#: lib/latexfonts:559
+msgid "CM Typewriter Light"
+msgstr ""
+
+#: lib/latexfonts:566
+msgid "Computer Modern Typewriter"
+msgstr ""
+
+#: lib/latexfonts:572
+msgid "Courier"
+msgstr ""
+
+#: lib/latexfonts:579
+msgid "Libertine Mono"
+msgstr ""
+
+#: lib/latexfonts:586
+msgid "Latin Modern Typewriter"
+msgstr ""
+
+#: lib/latexfonts:593
+msgid "LuxiMono"
+msgstr ""
+
+#: lib/latexfonts:600
+msgid "TeX Gyre Cursor"
+msgstr ""
+
+#: lib/latexfonts:606
+msgid "TX Typewriter"
+msgstr ""
+
+#: lib/latexfonts:618
+msgid "Euler VM"
+msgstr ""
+
+#: lib/latexfonts:624
+msgid "URW Garamond (New TX)"
+msgstr ""
+
+#: lib/latexfonts:632
+msgid "Iwona (Math)"
+msgstr ""
+
+#: lib/latexfonts:645
+msgid "Kurier (Math)"
+msgstr ""
+
+#: lib/latexfonts:658
+msgid "Libertine (New TX)"
+msgstr ""
+
+#: lib/latexfonts:666
+msgid "Minion Pro (New TX)"
+msgstr ""
+
+#: lib/latexfonts:675
+msgid "Times Roman (New TX)"
+msgstr ""
+

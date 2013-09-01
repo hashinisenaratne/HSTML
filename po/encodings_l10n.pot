@@ -1,0 +1,204 @@
+#: lib/encodings:31
+msgid "Unicode (utf8)"
+msgstr ""
+
+#: lib/encodings:36
+msgid "Unicode (ucs-extended) (utf8x)"
+msgstr ""
+
+#: lib/encodings:40
+msgid "Armenian (ArmSCII8)"
+msgstr ""
+
+#: lib/encodings:43
+msgid "Western European (ISO 8859-1)"
+msgstr ""
+
+#: lib/encodings:46
+msgid "Central European (ISO 8859-2)"
+msgstr ""
+
+#: lib/encodings:49
+msgid "South European (ISO 8859-3)"
+msgstr ""
+
+#: lib/encodings:52
+msgid "Baltic (ISO 8859-4)"
+msgstr ""
+
+#: lib/encodings:55
+msgid "Cyrillic (ISO 8859-5)"
+msgstr ""
+
+#: lib/encodings:59
+msgid "Arabic (ISO 8859-6)"
+msgstr ""
+
+#: lib/encodings:62
+msgid "Greek (ISO 8859-7)"
+msgstr ""
+
+#: lib/encodings:65
+msgid "Hebrew (ISO 8859-8)"
+msgstr ""
+
+#: lib/encodings:68
+msgid "Turkish (ISO 8859-9)"
+msgstr ""
+
+#: lib/encodings:72
+msgid "Baltic (ISO 8859-13)"
+msgstr ""
+
+#: lib/encodings:75
+msgid "Western European (ISO 8859-15)"
+msgstr ""
+
+#: lib/encodings:78
+msgid "South-Eastern European (ISO 8859-16)"
+msgstr ""
+
+#: lib/encodings:81
+msgid "Western European (Macintosh Roman)"
+msgstr ""
+
+#: lib/encodings:84
+msgid "DOS (CP 437)"
+msgstr ""
+
+#: lib/encodings:88
+msgid "DOS-de (CP 437-de)"
+msgstr ""
+
+#: lib/encodings:91
+msgid "Western European (CP 850)"
+msgstr ""
+
+#: lib/encodings:94
+msgid "Central European (CP 852)"
+msgstr ""
+
+#: lib/encodings:97
+msgid "Cyrillic (CP 855)"
+msgstr ""
+
+#: lib/encodings:100
+msgid "Western European (CP 858)"
+msgstr ""
+
+#: lib/encodings:103
+msgid "Hebrew (CP 862)"
+msgstr ""
+
+#: lib/encodings:106
+msgid "Nordic languages (CP 865)"
+msgstr ""
+
+#: lib/encodings:109
+msgid "Cyrillic (CP 866)"
+msgstr ""
+
+#: lib/encodings:112
+msgid "Central European (CP 1250)"
+msgstr ""
+
+#: lib/encodings:115
+msgid "Cyrillic (CP 1251)"
+msgstr ""
+
+#: lib/encodings:119
+msgid "Western European (CP 1252)"
+msgstr ""
+
+#: lib/encodings:122
+msgid "Hebrew (CP 1255)"
+msgstr ""
+
+#: lib/encodings:126
+msgid "Arabic (CP 1256)"
+msgstr ""
+
+#: lib/encodings:129
+msgid "Baltic (CP 1257)"
+msgstr ""
+
+#: lib/encodings:132
+msgid "Cyrillic (KOI8-R)"
+msgstr ""
+
+#: lib/encodings:135
+msgid "Cyrillic (KOI8-U)"
+msgstr ""
+
+#: lib/encodings:138
+msgid "Cyrillic (pt 154)"
+msgstr ""
+
+#: lib/encodings:141
+msgid "Cyrillic (pt 254)"
+msgstr ""
+
+#: lib/encodings:152
+msgid "Chinese (traditional) (Big5)"
+msgstr ""
+
+#: lib/encodings:162
+msgid "Japanese (CJK) (SJIS)"
+msgstr ""
+
+#: lib/encodings:169
+msgid "Chinese (simplified) (EUC-CN)"
+msgstr ""
+
+#: lib/encodings:173
+msgid "Chinese (simplified) (GBK)"
+msgstr ""
+
+#: lib/encodings:177
+msgid "Japanese (CJK) (JIS)"
+msgstr ""
+
+#: lib/encodings:181
+msgid "Korean (EUC-KR)"
+msgstr ""
+
+#: lib/encodings:185
+msgid "Unicode (CJK) (utf8)"
+msgstr ""
+
+#: lib/encodings:189
+msgid "Chinese (traditional) (EUC-TW)"
+msgstr ""
+
+#: lib/encodings:193
+msgid "Japanese (CJK) (EUC-JP)"
+msgstr ""
+
+#: lib/encodings:200
+msgid "Japanese (pLaTeX) (EUC-JP)"
+msgstr ""
+
+#: lib/encodings:202
+msgid "Japanese (pLaTeX) (JIS)"
+msgstr ""
+
+#: lib/encodings:204
+msgid "Japanese (pLaTeX) (SJIS)"
+msgstr ""
+
+#: lib/encodings:206
+msgid "Japanese (pLaTeX) (UTF8)"
+msgstr ""
+
+#: lib/encodings:213
+msgid "Thai (TIS 620-0)"
+msgstr ""
+
+#: lib/encodings:218
+msgid "Unicode (XeTeX) (utf8)"
+msgstr ""
+
+#: lib/encodings:222
+msgid "ASCII"
+msgstr ""
+

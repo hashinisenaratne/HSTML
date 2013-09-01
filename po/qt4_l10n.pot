@@ -1,0 +1,5824 @@
+#: src/frontends/qt4/ui/AboutUi.ui:32
+msgid "Version"
+msgstr ""
+
+#: src/frontends/qt4/ui/AboutUi.ui:50
+msgid "Version goes here"
+msgstr ""
+
+#: src/frontends/qt4/ui/AboutUi.ui:67
+msgid "Credits"
+msgstr ""
+
+#: src/frontends/qt4/ui/AboutUi.ui:83
+msgid "Copyright"
+msgstr ""
+
+#: src/frontends/qt4/ui/AboutUi.ui:99
+msgid "Build Info"
+msgstr ""
+
+#: src/frontends/qt4/ui/AboutUi.ui:150
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibitemUi.ui:31
+msgid "The bibliography key"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibitemUi.ui:44
+msgid "The label as it appears in the document"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibitemUi.ui:51
+msgid "The label as it appears in the document"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibitemUi.ui:54
+msgid "&Label:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibitemUi.ui:64
+msgid "The bibliography key"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibitemUi.ui:67
+msgid "&Key:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:19
+msgid "Citation Style"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:28
+msgid "Use BibTeX's default numerical styles"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:31
+msgid "&Default (numerical)"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:38
+msgid "Use the natbib styles for natural sciences and arts. Set additional parameters in document class options."
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:41
+msgid "&Natbib"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:59
+msgid "Natbib &style:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:97
+msgid "Use the jurabib styles for law and humanities"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:100
+msgid "&Jurabib"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:110
+msgid "Bibliography Style"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:121
+msgid "Default st&yle:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:131
+msgid "Define the default BibTeX style"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:140
+msgid "Select this if you want to split your bibliography into sections"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:143
+msgid "S&ectioned bibliography"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:153
+msgid "Here you can define an alternative program to or specific options of BibTeX."
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:156
+msgid "Bibliography generation"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:167
+msgid "&Processor:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:177
+msgid "Select a processor"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:201
+msgid "&Options:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BiblioUi.ui:211
+msgid "Define options such as --min-crossrefs (see the documentation of BibTeX)"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexAddUi.ui:21
+msgid "LyX: Add BibTeX Database"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexAddUi.ui:36
+msgid "Scan for new databases and styles"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexAddUi.ui:39
+msgid "&Rescan"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexAddUi.ui:46
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexAddUi.ui:83
+msgid "Enter BibTeX database name"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexAddUi.ui:114
+msgid "&Add"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexAddUi.ui:127
+msgid "Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:47
+msgid "Scan for new databases and styles"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:50
+msgid "&Rescan"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:81
+msgid "The BibTeX style"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:84
+msgid "St&yle"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:94
+msgid "Choose a style file"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:97
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:107
+msgid "Choose a style file"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:131
+msgid "This bibliography section contains..."
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:134
+msgid "&Content:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:144
+msgid "This bibliography section contains..."
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:148
+msgid "all cited references"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:153
+msgid "all uncited references"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:158
+msgid "all references"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:166
+msgid "Add bibliography to the table of contents"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:169
+msgid "Add bibliography to &TOC"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:200
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:213
+msgid "Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:225
+msgid "Move the selected database downwards in the list"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:228
+msgid "Do&wn"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:235
+msgid "Move the selected database upwards in the list"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:238
+msgid "&Up"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:253
+msgid "BibTeX database to use"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:256
+msgid "Databa&ses"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:269
+msgid "Add a BibTeX database file"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:272
+msgid "&Add..."
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:279
+msgid "Remove the selected database"
+msgstr ""
+
+#: src/frontends/qt4/ui/BibtexUi.ui:282
+msgid "&Delete"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:29
+msgid "Check this if the box should break across pages"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:32
+msgid "Allow &page breaks"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:39
+msgid "Alignment"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:60
+msgid "Horizontal alignment of the content inside the box"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:64
+msgid "Left"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:69
+msgid "Center"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:74
+msgid "Right"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:79
+msgid "Stretch"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:93
+msgid "Vertical alignment of the content inside the box"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:97
+msgid "Top"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:102
+msgid "Middle"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:107
+msgid "Bottom"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:112
+msgid "Stretch"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:120
+msgid "Vertical alignment of the box (with regard to baseline)"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:124
+msgid "Top"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:129
+msgid "Middle"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:134
+msgid "Bottom"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:142
+msgid "Vertical alignment of the box (with regard to baseline)"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:145
+msgid "&Box:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:155
+msgid "Co&ntent:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:165
+msgid "Vertical alignment of the content inside the box"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:168
+msgid "Vertical"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:175
+msgid "Horizontal alignment of the content inside the box"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:178
+msgid "Horizontal"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:198
+msgid "&Height:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:214
+msgid "Inner Bo&x:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:230
+msgid "&Decoration:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:243
+msgid "&Width:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:259
+msgid "Height value"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:266
+msgid "Width value"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:273
+msgid "Inner box -- needed for fixed width & line breaks"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:277
+msgid "None"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:282
+msgid "Parbox"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:287
+msgid "Minipage"
+msgstr ""
+
+#: src/frontends/qt4/ui/BoxUi.ui:295
+msgid "Supported box types"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:25
+msgid "&New:[[branch]]"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:35
+msgid "Append the name of this branch to the output filename, given the branch is active."
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:38
+msgid "Filename &Suffix"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:61
+msgid "Show undefined branches used in this document."
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:64
+msgid "&Undefined Branches"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:84
+msgid "A&vailable Branches:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:94
+msgid "Toggle the selected branch"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:97
+msgid "(&De)activate"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:110
+msgid "Add a new branch to the list"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:113
+msgid "&Add"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:123
+msgid "Define or change background color"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:126
+msgid "Alter Co&lor..."
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:133
+msgid "Remove the selected branch"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:136
+msgid "&Remove"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:143
+msgid "Change the name of the selected branch"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUi.ui:146
+msgid "Re&name..."
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUnknownUi.ui:25
+msgid "Add the selected branches to the list."
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUnknownUi.ui:28
+msgid "&Add Selected"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUnknownUi.ui:35
+msgid "Add all unknown branches to the list."
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUnknownUi.ui:38
+msgid "Add A&ll"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUnknownUi.ui:58
+msgid "&Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUnknownUi.ui:65
+msgid "Undefined branches used in this document."
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUnknownUi.ui:68
+msgid "&Undefined Branches:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchesUnknownUi.ui:78
+msgid "Undefined branches used in this document."
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchUi.ui:19
+msgid "&Available branches:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BranchUi.ui:29
+msgid "Select your branch"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:34
+msgid "&Font:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:44
+msgid "Si&ze:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:66
+msgid "Default"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:71
+msgid "Tiny"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:76
+msgid "Smallest"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:81
+msgid "Smaller"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:86
+msgid "Small"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:91
+msgid "Normal"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:96
+msgid "Large"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:101
+msgid "Larger"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:106
+msgid "Largest"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:111
+msgid "Huge"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:116
+msgid "Huger"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:144
+msgid "&Custom Bullet:"
+msgstr ""
+
+#: src/frontends/qt4/ui/BulletsUi.ui:174
+msgid "&Level:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:31
+msgid "Change:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:49
+msgid "Go to previous change"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:52
+msgid "&Previous change"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:62
+msgid "Go to next change"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:65
+msgid "&Next change"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:91
+msgid "Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:108
+msgid "Accept this change"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:111
+msgid "&Accept"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:121
+msgid "Reject this change"
+msgstr ""
+
+#: src/frontends/qt4/ui/ChangesUi.ui:124
+msgid "&Reject"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:44
+msgid "Font family"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:47
+msgid "&Family:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:65
+msgid "Font shape"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:72
+msgid "Font shape"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:75
+msgid "S&hape:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:93
+msgid "Font series"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:108
+msgid "Language"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:123
+msgid "Font family"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:138
+msgid "Font color"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:145
+msgid "Language"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:148
+msgid "&Language:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:158
+msgid "Font series"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:161
+msgid "&Series:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:174
+msgid "Font color"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:177
+msgid "&Color:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:197
+msgid "Never Toggled"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:209
+msgid "Font size"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:212
+msgid "Si&ze:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:230
+msgid "Font size"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:240
+msgid "Other font settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:243
+msgid "Always Toggled"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:255
+msgid "&Misc:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:273
+msgid "Other font settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:295
+msgid "toggle font on all of the above"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:298
+msgid "&Toggle all"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:305
+msgid "Apply each change automatically"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:308
+msgid "Apply changes &immediately"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:357
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:367
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/CharacterUi.ui:377
+msgid "Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:30
+msgid "A&vailable Citations:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:53
+msgid "S&elected Citations:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:72
+msgid "Click or press Enter to add the selected citation to the list"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:75
+msgid "&Add"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:92
+msgid "Click or press Delete to delete the selected citation from the list"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:95
+msgid "&Delete"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:124
+msgid "Move the selected citation up (Ctrl-Up)"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:127
+msgid "&Up"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:148
+msgid "Move the selected citation down (Ctrl-Down)"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:151
+msgid "&Down"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:174
+msgid "&Restore"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:197
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:210
+msgid "App&ly"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:220
+msgid "&Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:248
+msgid "Formatting"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:257
+msgid "Citation st&yle:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:267
+msgid "Natbib citation style to use"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:274
+msgid "Text &before:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:284
+msgid "Text to place before citation"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:291
+msgid "Text a&fter:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:301
+msgid "Text to place after citation"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:329
+msgid "List all authors"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:332
+msgid "Full aut&hor list"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:339
+msgid "Force upper case in citation"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:342
+msgid "Force u&pper case"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:354
+msgid "Search Citation"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:369
+msgid "Searc&h:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:382
+msgid "Enter the text to search for and press Enter or click the button to search"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:395
+msgid "Click or press Enter in the search box to search"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:398
+msgid "&Search"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:408
+msgid "Search field:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:428
+msgid "All fields"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:449
+msgid "Regular e&xpression"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:456
+msgid "Case se&nsitive"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:463
+msgid "Entry types:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:480
+msgid "All entry types"
+msgstr ""
+
+#: src/frontends/qt4/ui/CitationUi.ui:501
+msgid "Search as you &type"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:27
+msgid "Font colors"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:38
+msgid "Main text:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:54
+msgid "Click to change the color"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:57
+msgid "Default..."
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:70
+msgid "Revert the color to the default"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:73
+msgid "R&eset"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:99
+msgid "Greyed-out notes:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:115
+msgid "Click to change the color"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:118
+msgid "&Change..."
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:131
+msgid "Revert the color to the default"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:134
+msgid "R&eset"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:165
+msgid "Background colors"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:176
+msgid "Page:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:192
+msgid "Click to change the color"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:195
+msgid "Default..."
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:208
+msgid "Revert the color to the default"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:211
+msgid "R&eset"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:237
+msgid "Shaded boxes:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:253
+msgid "Click to change the color"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:256
+msgid "&Change..."
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:269
+msgid "Revert the color to the default"
+msgstr ""
+
+#: src/frontends/qt4/ui/ColorUi.ui:272
+msgid "R&eset"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareHistoryUi.ui:22
+msgid "Compare Revisions"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareHistoryUi.ui:30
+msgid "&Revisions back"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareHistoryUi.ui:83
+msgid "&Between revisions"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareHistoryUi.ui:96
+msgid "Old:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareHistoryUi.ui:131
+msgid "New:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareHistoryUi.ui:183
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareHistoryUi.ui:205
+msgid "&Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:27
+msgid "&New Document:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:50
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:60
+msgid "&Old Document:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:83
+msgid "Bro&wse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:99
+msgid "Copy Document Settings from:"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:105
+msgid "N&ew Document"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:112
+msgid "Ol&d Document"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:153
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:163
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:178
+msgid "Turns on the change tracking and showing changes in LaTeX output for the resulting document"
+msgstr ""
+
+#: src/frontends/qt4/ui/CompareUi.ui:181
+msgid "Enable &change tracking features in the output"
+msgstr ""
+
+#: src/frontends/qt4/ui/DelimiterUi.ui:143
+msgid "TeX Code: "
+msgstr ""
+
+#: src/frontends/qt4/ui/DelimiterUi.ui:167
+msgid "Match delimiter types"
+msgstr ""
+
+#: src/frontends/qt4/ui/DelimiterUi.ui:170
+msgid "&Keep matched"
+msgstr ""
+
+#: src/frontends/qt4/ui/DelimiterUi.ui:196
+msgid "&Size:"
+msgstr ""
+
+#: src/frontends/qt4/ui/DelimiterUi.ui:268
+msgid "Insert the delimiters"
+msgstr ""
+
+#: src/frontends/qt4/ui/DelimiterUi.ui:271
+msgid "&Insert"
+msgstr ""
+
+#: src/frontends/qt4/ui/DelimiterUi.ui:286
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/DocumentUi.ui:44
+msgid "&Restore"
+msgstr ""
+
+#: src/frontends/qt4/ui/DocumentUi.ui:67
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/DocumentUi.ui:77
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/DocumentUi.ui:84
+msgid "&Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/DocumentUi.ui:112
+msgid "Reset to the default settings for the document class"
+msgstr ""
+
+#: src/frontends/qt4/ui/DocumentUi.ui:115
+msgid "Use Class Defaults"
+msgstr ""
+
+#: src/frontends/qt4/ui/DocumentUi.ui:130
+msgid "Save settings as LyX's default document settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/DocumentUi.ui:133
+msgid "Save as Document Defaults"
+msgstr ""
+
+#: src/frontends/qt4/ui/ErrorListUi.ui:36
+msgid "For more information, refer to the complete log."
+msgstr ""
+
+#: src/frontends/qt4/ui/ErrorListUi.ui:43
+msgid "&Errors:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ErrorListUi.ui:53
+msgid "Description:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ErrorListUi.ui:60
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/ErrorListUi.ui:83
+msgid "Open the LaTeX Log File dialog"
+msgstr ""
+
+#: src/frontends/qt4/ui/ErrorListUi.ui:86
+msgid "View Complete &Log..."
+msgstr ""
+
+#: src/frontends/qt4/ui/ERTUi.ui:28
+msgid "Display"
+msgstr ""
+
+#: src/frontends/qt4/ui/ERTUi.ui:40
+msgid "Show ERT button only"
+msgstr ""
+
+#: src/frontends/qt4/ui/ERTUi.ui:43
+msgid "&Collapsed"
+msgstr ""
+
+#: src/frontends/qt4/ui/ERTUi.ui:50
+msgid "Show ERT contents"
+msgstr ""
+
+#: src/frontends/qt4/ui/ERTUi.ui:53
+msgid "O&pen"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:35
+msgid "F&ile"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:47
+msgid "Filename"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:54
+msgid "Filename"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:57
+msgid "&File:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:67
+msgid "Select a file"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:70
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:77
+msgid "&Draft"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:84
+msgid "&Template"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:121
+msgid "Available templates"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:132
+msgid "LaTe&X and LyX options"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:144
+msgid "LaTeX Options"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:162
+msgid "O&ption:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:175
+msgid "Forma&t:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:191
+msgid "Enable LyX to preview this material; only if graphics previewing is not disabled at application level (see Preference dialog)."
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:194
+msgid "&Show in LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:212
+msgid "Percentage to scale by in LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:215
+msgid "Sca&le on Screen (%):"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:234
+msgid "Percentage to scale by in LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:271
+msgid "Si&ze and Rotation"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:283
+msgid "Rotate"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:328
+msgid "Angle to rotate image by"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:338
+msgid "The origin of the rotation"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:341
+msgid "Ori&gin:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:351
+msgid "The origin of the rotation"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:358
+msgid "Angle to rotate image by"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:361
+msgid "A&ngle:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:376
+msgid "Scale"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:400
+msgid "Height of image in output"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:410
+msgid "Width of image in output"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:420
+msgid "&Width:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:433
+msgid "Maintain aspect ratio with largest dimension"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:436
+msgid "&Maintain aspect ratio"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:446
+msgid "&Height:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:459
+msgid "Crop"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:474
+msgid "Clip to bounding box values"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:477
+msgid "Clip to &bounding box"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:484
+msgid "&Left bottom:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:497
+msgid "x"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:504
+msgid "Right &top:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:514
+msgid "Get bounding box from the (EPS) file"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:517
+msgid "&Get from File"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:547
+msgid "y"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:588
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:598
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/ExternalUi.ui:608
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:20
+msgid "TabWidget"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:27
+msgid "Sear&ch"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:35
+msgid "&Find:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:59
+msgid "Replace &with:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:89
+msgid "Perform a case-sensitive search"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:92
+msgid "Case &sensitive"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:108
+msgid "Find next occurrence [Enter]"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:111
+msgid "Find &Next"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:124
+msgid "Restrict search to whole words only"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:127
+msgid "W&hole words"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:143
+msgid "Replace and find next occurrence [Enter]"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:146
+msgid "&Replace"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:153
+msgid "Shift+Enter search backwards directly"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:156
+msgid "Search &backwards"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:172
+msgid "Replace all occurences at once"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:175
+msgid "Replace &All"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:185
+msgid "S&ettings"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:200
+msgid "The scope to which the search horizon is restricted"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:206
+msgid "Sco&pe"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:218
+msgid "Current &document"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:237
+msgid "Current document and all related documents belonging to the same master document"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:240
+msgid "&Master document"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:250
+msgid "All open documents"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:253
+msgid "&Open documents"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:263
+msgid "All ma&nuals"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:294
+msgid "If unchecked, the search will be limited to occurrences of the selected text and paragraph style"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:297
+msgid "Ignore &format"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:307
+msgid "Keep the case of the replacement's first letter as in each matching text first letter"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:310
+msgid "&Preserve first case on replace"
+msgstr ""
+
+#: src/frontends/qt4/ui/FindAndReplaceUi.ui:320
+msgid "&Expand macros"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:13
+msgid "Form"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:19
+msgid "Float Type:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:36
+msgid "Use &default placement"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:43
+msgid "Advanced Placement Options"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:55
+msgid "&Top of page"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:62
+msgid "&Ignore LaTeX rules"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:69
+msgid "Here de&finitely"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:76
+msgid "&Here if possible"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:83
+msgid "&Page of floats"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:90
+msgid "&Bottom of page"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:100
+msgid "&Span columns"
+msgstr ""
+
+#: src/frontends/qt4/ui/FloatPlacementUi.ui:107
+msgid "&Rotate sideways"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:14
+msgid "FontUi"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:20
+msgid "Use OpenType and TrueType fonts with the fontspec package (requires XeTeX or LuaTeX)"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:23
+msgid "&Use non-TeX fonts (via XeTeX/LuaTeX)"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:43
+msgid "&Default family:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:53
+msgid "Select the default family for the document"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:60
+msgid "&Base Size:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:77
+msgid "LaTe&X font encoding:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:90
+msgid "Specify the font encoding (e.g., T1)."
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:97
+msgid "&Roman:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:107
+msgid "Select the roman (serif) typeface"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:114
+msgid "&Sans Serif:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:124
+msgid "Select the Sans Serif (grotesque) typeface"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:131
+msgid "S&cale (%):"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:141
+msgid "Scale the Sans Serif font to match the base font's dimensions"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:154
+msgid "&Typewriter:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:164
+msgid "Select the typewriter (monospaced) typeface"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:171
+msgid "Sc&ale (%):"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:181
+msgid "Scale the Typewriter font to match the base font's dimensions"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:194
+msgid "&Math:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:204
+msgid "Select the math typeface"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:211
+msgid "C&JK:"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:221
+msgid "Input the font to be used for Chinese, Japanese or Korean (CJK) script"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:228
+msgid "Use a real small caps shape, if the font provides one"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:231
+msgid "Use true S&mall Caps"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:238
+msgid "Use old style instead of lining figures"
+msgstr ""
+
+#: src/frontends/qt4/ui/FontUi.ui:241
+msgid "Use &Old Style Figures"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:43
+msgid "&Graphics"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:55
+msgid "Select an image file"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:58
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:65
+msgid "Output Size"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:97
+msgid "Width of image in output"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:131
+msgid "Height of image in output"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:141
+msgid "Sets height of graphic. Leave unchecked to set automatically."
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:144
+msgid "Set &height:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:151
+msgid "&Scale Graphics (%):"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:161
+msgid "Sets width of graphic. Leave unchecked to set automatically."
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:164
+msgid "Set &width:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:174
+msgid "Scale image to maximum size not exceeding width and height"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:177
+msgid "&Maintain aspect ratio"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:187
+msgid "Rotate Graphics"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:202
+msgid "Check to change the order of rotating and scaling"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:205
+msgid "Ro&tate after scaling"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:212
+msgid "The origin of the rotation"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:219
+msgid "The origin of the rotation"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:222
+msgid "Or&igin:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:240
+msgid "Angle to rotate image by"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:247
+msgid "Angle to rotate image by"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:250
+msgid "A&ngle (Degrees):"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:263
+msgid "File name of image"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:266
+msgid "&File:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:276
+msgid "File name of image"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:284
+msgid "&Clipping"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:309
+msgid "Clip to bounding box values"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:312
+msgid "Clip to &bounding box"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:345
+msgid "&Left bottom:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:383
+msgid "Right &top:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:393
+msgid "y:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:400
+msgid "y:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:407
+msgid "x:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:414
+msgid "x:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:437
+msgid "Get bounding box from the (EPS) file"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:440
+msgid "&Get from File"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:448
+msgid "LaTe&X and LyX options"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:460
+msgid "Don't uncompress image before exporting to LaTeX"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:463
+msgid "Don't un&zip on export"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:491
+msgid "Additional LaTeX options"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:498
+msgid "Additional LaTeX options"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:501
+msgid "LaTeX &options:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:527
+msgid "Enable LyX to preview this graphics, only if graphics previewing is not disabled at application level (see Preference dialog)."
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:530
+msgid "Sho&w in LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:559
+msgid "Percentage to scale by in LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:566
+msgid "Percentage to scale by in LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:569
+msgid "Sca&le on Screen (%):"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:595
+msgid "Assign the graphic to a group of graphics that share the same settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:598
+msgid "Graphics Group"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:637
+msgid "A&ssigned to group:"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:647
+msgid "Click to define a new graphics group."
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:650
+msgid "O&pen new group..."
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:657
+msgid "Select an existing group for the current graphics."
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:670
+msgid "Draft mode"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:673
+msgid "&Draft mode"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:692
+msgid "&Restore"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:721
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:742
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/GraphicsUi.ui:763
+msgid "Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:28
+msgid "Select a fill pattern style for HFills"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:32
+msgid "None"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:37
+msgid "..............."
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:42
+msgid "________"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:47
+msgid "<-----------"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:52
+msgid "----------->"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:57
+msgid "\\-----v-----/"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:62
+msgid "/-----^-----\\"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:70
+msgid "&Spacing:"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:80
+msgid "Supported spacing types"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:87
+msgid "&Value:"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:100
+msgid "Custom value. Needs spacing type \"Custom\"."
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:110
+msgid "&Fill Pattern:"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:123
+msgid "&Protect:"
+msgstr ""
+
+#: src/frontends/qt4/ui/HSpaceUi.ui:133
+msgid "Insert the spacing even after a line break"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:19
+msgid "URL"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:22
+msgid "&Target:"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:32
+msgid "URL"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:39
+msgid "Name associated with the URL"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:42
+msgid "&Name:"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:52
+msgid "Name associated with the URL"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:59
+msgid "Specify the link target"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:62
+msgid "Link type"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:74
+msgid "Link to the web or to every other target"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:77
+msgid "&Web"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:87
+msgid "Link to an email address"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:90
+msgid "&Email"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:97
+msgid "Link to a file"
+msgstr ""
+
+#: src/frontends/qt4/ui/HyperlinkUi.ui:100
+msgid "&File"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:36
+msgid "Listing Parameters"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:66
+msgid "Check it to enter parameters that are not recognizable by LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:69
+msgid "&Bypass validation"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:86
+msgid "C&aption:"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:99
+msgid "La&bel:"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:109
+msgid "Mo&re parameters"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:183
+msgid "Underline spaces in generated output"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:186
+msgid "&Mark spaces in output"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:201
+msgid "Show LaTeX preview"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:204
+msgid "&Show preview"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:237
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:250
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:265
+msgid "&File:"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:275
+msgid "File name to include"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:282
+msgid "&Include Type:"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:293
+msgid "Include"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:298
+msgid "Input"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:303
+msgid "Verbatim"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:308
+msgid "Program Listing"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:332
+msgid "Select a file"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:335
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:342
+msgid "Edit the file"
+msgstr ""
+
+#: src/frontends/qt4/ui/IncludeUi.ui:345
+msgid "&Edit"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndexUi.ui:41
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndexUi.ui:59
+msgid "A&vailable Indexes:"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndexUi.ui:69
+msgid "Select the index this entry should be listed in."
+msgstr ""
+
+#: src/frontends/qt4/ui/IndexUi.ui:78
+msgid "&Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:19
+msgid "Here you can define an alternative index processor and specify its options."
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:22
+msgid "Index generation"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:33
+msgid "&Processor:"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:43
+msgid "Select a processor"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:54
+msgid "&Options:"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:64
+msgid "Define program options of the selected processor."
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:89
+msgid "Check if you need multiple indexes (e.g., an Index of Names)"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:92
+msgid "&Use multiple indexes"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:114
+msgid "&New:[[index]]"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:124
+msgid "Enter the name of the desired index (e.g. \"Index of Names\") and hit \"Add\""
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:131
+msgid "Add a new index to the list"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:134
+msgid "&Add"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:143
+msgid "A&vailable Indexes:"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:154
+msgid "1"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:162
+msgid "Remove the selected index"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:165
+msgid "&Remove"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:172
+msgid "Rename the selected index"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:175
+msgid "R&ename..."
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:182
+msgid "Define or change button color"
+msgstr ""
+
+#: src/frontends/qt4/ui/IndicesUi.ui:185
+msgid "Alter Co&lor..."
+msgstr ""
+
+#: src/frontends/qt4/ui/InfoUi.ui:24
+msgid "Information Type:"
+msgstr ""
+
+#: src/frontends/qt4/ui/InfoUi.ui:34
+msgid "Information Name:"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:16
+msgid "Inset Parameter Configuration"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:46
+msgid "Update dialog when moving context"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:49
+msgid "S&ynchronize Dialog"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:56
+msgid "Apply settings immediately"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:62
+msgid "I&mmediate Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:79
+msgid "Restore initial values in dialog"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:82
+msgid "&Restore"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:92
+msgid "Push new inset into the document"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:95
+msgid "New Inset"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:118
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:128
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/InsetParamsUi.ui:138
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/LabelUi.ui:36
+msgid "&Label:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LanguageUi.ui:20
+msgid "&Language:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LanguageUi.ui:53
+msgid "&Quote Style:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LanguageUi.ui:66
+msgid "Encoding"
+msgstr ""
+
+#: src/frontends/qt4/ui/LanguageUi.ui:81
+msgid "Language &Default"
+msgstr ""
+
+#: src/frontends/qt4/ui/LanguageUi.ui:104
+msgid "&Other:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LanguageUi.ui:126
+msgid "Language pac&kage:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LanguageUi.ui:136
+msgid "Select which language package LyX should use"
+msgstr ""
+
+#: src/frontends/qt4/ui/LanguageUi.ui:143
+msgid "Enter the command to load the language package (default: \\usepackage{babel})"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:19
+msgid "Document &class"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:44
+msgid "Click to select a local document class definition file"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:47
+msgid "&Local Layout..."
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:57
+msgid "Class options"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:63
+msgid "Enable to use the options that are predefined in the layout file"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:66
+msgid "&Predefined:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:73
+msgid "The options that are predefined in the layout file. Click to the left to select/deselect."
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:83
+msgid "Cus&tom:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:99
+msgid "&Graphics driver:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:129
+msgid "Select if the current document is included to a master file"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:135
+msgid "Select de&fault master document"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:150
+msgid "&Master:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:160
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:167
+msgid "Enter the name of the default master document"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:186
+msgid "&Suppress default date on front page"
+msgstr ""
+
+#: src/frontends/qt4/ui/LaTeXUi.ui:206
+msgid "&Use refstyle (not prettyref) for cross-references"
+msgstr ""
+
+#: src/frontends/qt4/ui/LineUi.ui:22
+msgid "Of&fset:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LineUi.ui:35
+msgid "Value of the vertical line offset."
+msgstr ""
+
+#: src/frontends/qt4/ui/LineUi.ui:58
+msgid "&Width:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LineUi.ui:71
+msgid "Value of the line width."
+msgstr ""
+
+#: src/frontends/qt4/ui/LineUi.ui:94
+msgid "&Thickness:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LineUi.ui:107
+msgid "Value of the line thickness."
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsSettingsUi.ui:49
+msgid "Input here the listings parameters"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsSettingsUi.ui:67
+msgid "Feedback window"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsSettingsUi.ui:83
+msgid "Check it to enter parameters that are not recognizable by LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsSettingsUi.ui:86
+msgid "&Bypass validation"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:13
+msgid "Listing"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:23
+msgid "&Main Settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:29
+msgid "Placement"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:35
+msgid "Check for inline listings"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:38
+msgid "&Inline listing"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:45
+msgid "Check for floating listings"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:48
+msgid "&Float"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:55
+msgid "&Placement:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:68
+msgid "Specify placement (htbp) for floating listings"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:78
+msgid "Line numbering"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:84
+msgid "&Side:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:94
+msgid "On which side should line numbers be printed?"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:98
+msgid "None"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:103
+msgid "Left"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:108
+msgid "Right"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:119
+msgid "S&tep:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:132
+msgid "Difference between two numbered lines"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:148
+msgid "Font si&ze:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:169
+msgid "Choose the font size for line numbers"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:188
+msgid "Style"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:194
+msgid "F&ont size:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:215
+msgid "The content's base font size"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:231
+msgid "Font Famil&y:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:252
+msgid "The content's base font style"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:268
+msgid "Break lines longer than the linewidth"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:271
+msgid "&Break long lines"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:281
+msgid "Make spaces visible by a special symbol"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:284
+msgid "S&pace as symbol"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:294
+msgid "Make spaces in strings visible by a special symbol"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:297
+msgid "Space i&n string as symbol"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:307
+msgid "Tab&ulator size:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:323
+msgid "Use extended character table"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:326
+msgid "&Extended character table"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:339
+msgid "Language"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:345
+msgid "Lan&guage:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:355
+msgid "Select the programming language"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:362
+msgid "&Dialect:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:372
+msgid "Select the dialect of the programming language, if available"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:382
+msgid "Range"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:388
+msgid "Fi&rst line:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:401
+msgid "The first line to be printed"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:414
+msgid "&Last line:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:427
+msgid "The last line to be printed"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:444
+msgid "Ad&vanced"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:458
+msgid "More Parameters"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:477
+msgid "Feedback window"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:499
+msgid "Input listing parameters here. Enter ? for a list of parameters."
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:507
+msgid "Check it to enter parameters that are not recognizable by LyX"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:510
+msgid "&Bypass validation"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:539
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:549
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/ListingsUi.ui:559
+msgid "&Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/LocalLayoutUi.ui:19
+msgid "Document-specific layout information"
+msgstr ""
+
+#: src/frontends/qt4/ui/LocalLayoutUi.ui:35
+msgid "&Validate"
+msgstr ""
+
+#: src/frontends/qt4/ui/LocalLayoutUi.ui:45
+msgid "Errors reported in terminal."
+msgstr ""
+
+#: src/frontends/qt4/ui/LocalLayoutUi.ui:58
+msgid "Convert"
+msgstr ""
+
+#: src/frontends/qt4/ui/LocalLayoutUi.ui:68
+msgid "Errors reported in terminal."
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:28
+msgid "&Find:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:38
+msgid "Hit Enter to search, or click Go!"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:45
+msgid "Log &Type:"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:74
+msgid "Update the display"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:77
+msgid "&Update"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:87
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:110
+msgid "Copy to Clip&board"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:130
+msgid "&Go!"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:137
+msgid "Jump to the next warning message."
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:140
+msgid "Next &Warning"
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:147
+msgid "Jump to the next error message."
+msgstr ""
+
+#: src/frontends/qt4/ui/LogUi.ui:150
+msgid "Next &Error"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:28
+msgid "Use the margin settings provided by the document class"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:31
+msgid "&Default Margins"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:89
+msgid "&Top:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:102
+msgid "&Bottom:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:115
+msgid "&Inner:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:128
+msgid "O&uter:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:141
+msgid "Head &sep:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:154
+msgid "Head &height:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:167
+msgid "&Foot skip:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MarginsUi.ui:180
+msgid "&Column Sep:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MasterChildUi.ui:25
+msgid "Master Document Output"
+msgstr ""
+
+#: src/frontends/qt4/ui/MasterChildUi.ui:40
+msgid "Include only the selected subdocuments in the output"
+msgstr ""
+
+#: src/frontends/qt4/ui/MasterChildUi.ui:43
+msgid "Include only &selected children"
+msgstr ""
+
+#: src/frontends/qt4/ui/MasterChildUi.ui:50
+msgid "Assure counters and references are as in the complete document (prolonges compilation)"
+msgstr ""
+
+#: src/frontends/qt4/ui/MasterChildUi.ui:53
+msgid "&Maintain counters and references"
+msgstr ""
+
+#: src/frontends/qt4/ui/MasterChildUi.ui:63
+msgid "Include all subdocuments in the output"
+msgstr ""
+
+#: src/frontends/qt4/ui/MasterChildUi.ui:66
+msgid "&Include all children"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:31
+msgid "Number of rows"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:34
+msgid "&Rows:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:44
+msgid "Number of rows"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:60
+msgid "Number of columns"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:63
+msgid "&Columns:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:73
+msgid "Number of columns"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:113
+msgid "Resize this to the correct table dimensions"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:152
+msgid "Alignment"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:164
+msgid "Vertical alignment"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:171
+msgid "&Vertical:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:190
+msgid "Horizontal alignment per column (l,c,r)"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:197
+msgid "&Horizontal:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:210
+msgid "Decoration"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:216
+msgid "&Type:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:229
+msgid "decoration type / matrix border"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:263
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathMatrixUi.ui:270
+msgid "Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathsUi.ui:45
+msgid "All packages:"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathsUi.ui:52
+msgid "Load a&utomatically"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathsUi.ui:59
+msgid "Load alwa&ys"
+msgstr ""
+
+#: src/frontends/qt4/ui/MathsUi.ui:66
+msgid "Do &not load"
+msgstr ""
+
+#: src/frontends/qt4/ui/ModulesUi.ui:60
+msgid "A&vailable:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ModulesUi.ui:100
+msgid "A&dd"
+msgstr ""
+
+#: src/frontends/qt4/ui/ModulesUi.ui:107
+msgid "De&lete"
+msgstr ""
+
+#: src/frontends/qt4/ui/ModulesUi.ui:114
+msgid "&Up"
+msgstr ""
+
+#: src/frontends/qt4/ui/ModulesUi.ui:121
+msgid "Do&wn"
+msgstr ""
+
+#: src/frontends/qt4/ui/ModulesUi.ui:151
+msgid "S&elected:"
+msgstr ""
+
+#: src/frontends/qt4/ui/NomenclUi.ui:13
+msgid "Nomenclature"
+msgstr ""
+
+#: src/frontends/qt4/ui/NomenclUi.ui:28
+msgid "Sort &as:"
+msgstr ""
+
+#: src/frontends/qt4/ui/NomenclUi.ui:38
+msgid "&Description:"
+msgstr ""
+
+#: src/frontends/qt4/ui/NomenclUi.ui:48
+msgid "&Symbol:"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:28
+msgid "Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:38
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:48
+msgid "Type"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:60
+msgid "LyX internal only"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:63
+msgid "LyX &Note"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:70
+msgid "Export to LaTeX/Docbook but don't print"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:73
+msgid "&Comment"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:80
+msgid "Print as grey text"
+msgstr ""
+
+#: src/frontends/qt4/ui/NoteUi.ui:83
+msgid "&Greyed out"
+msgstr ""
+
+#: src/frontends/qt4/ui/NumberingUi.ui:60
+msgid "&List in Table of Contents"
+msgstr ""
+
+#: src/frontends/qt4/ui/NumberingUi.ui:70
+msgid "&Numbering"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:14
+msgid "Form"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:20
+msgid "Output Format"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:43
+msgid "Specify the default output format (for view/update)"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:46
+msgid "De&fault Output Format:"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:56
+msgid "Specify the default output format (for view/update)"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:68
+msgid "Enable forward/reverse search between editor and output (e.g., SyncTeX)"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:71
+msgid "S&ynchronize with Output"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:88
+msgid "C&ustom Macro:"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:98
+msgid "Custom LaTeX preamble macro"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:113
+msgid "XHTML Output Options"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:122
+msgid "Whether to comply strictly with XHTML 1.1."
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:125
+msgid "&Strict XHTML 1.1"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:138
+msgid "&Math output:"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:154
+msgid "Format to use for math output."
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:158
+msgid "MathML"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:163
+msgid "HTML"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:168
+msgid "Images"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:173
+msgid "LaTeX"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:187
+msgid "Math &image scaling:"
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:203
+msgid "Scaling factor for images used for math output."
+msgstr ""
+
+#: src/frontends/qt4/ui/OutputUi.ui:222
+msgid "Write CSS to File"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:20
+msgid "Paper Format"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:29
+msgid "&Format:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:45
+msgid "Choose a particular paper size, or set your own with \"Custom\""
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:71
+msgid "&Height:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:100
+msgid "&Width:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:126
+msgid "&Orientation:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:136
+msgid "&Portrait"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:146
+msgid "&Landscape"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:162
+msgid "Page Layout"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:171
+msgid "Page &style:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:187
+msgid "Style used for the page header and footer"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:207
+msgid "Lay out the page for double-sided printing"
+msgstr ""
+
+#: src/frontends/qt4/ui/PageLayoutUi.ui:210
+msgid "&Two-sided document"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:44
+msgid "I&mmediate Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:54
+msgid "Label Width"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:69
+msgid "This text defines the width of the paragraph label"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:72
+msgid "Lo&ngest label"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:82
+msgid "This text defines the width of the paragraph label"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:92
+msgid "Line &spacing"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:115
+msgid "Default"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:120
+msgid "Single"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:125
+msgid "1.5"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:130
+msgid "Double"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:135
+msgid "Custom"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:146
+msgid "&Indent Paragraph"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:153
+msgid "Alignment"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:168
+msgid "&Justified"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:175
+msgid "&Left"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:182
+msgid "C&enter"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:189
+msgid "Ri&ght"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:196
+msgid "Use the default alignment for this paragraph, whatever it is."
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:199
+msgid "Paragraph's &Default"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:217
+msgid "&Restore"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:240
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:250
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/ParagraphUi.ui:260
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:13
+msgid "Form"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:28
+msgid "&Use hyperref support"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:53
+msgid "&General"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:91
+msgid "Header Information"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:103
+msgid "&Title:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:116
+msgid "&Author:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:129
+msgid "&Subject:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:142
+msgid "&Keywords:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:166
+msgid "If not stated explicitly, fill title and author from appropriate environments"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:169
+msgid "Automatically fi&ll header"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:176
+msgid "Enable fullscreen PDF presentation"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:179
+msgid "Load in &fullscreen mode"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:189
+msgid "H&yperlinks"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:222
+msgid "Allows link text to break across lines."
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:225
+msgid "B&reak links over lines"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:232
+msgid "No &frames around links"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:242
+msgid "C&olor links"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:249
+msgid "Bibliographical backreferences"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:252
+msgid "B&ackreferences:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:281
+msgid "&Bookmarks"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:293
+msgid "G&enerate Bookmarks (ToC)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:314
+msgid "&Numbered bookmarks"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:321
+msgid "&Open bookmark tree"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:336
+msgid "&Level:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:346
+msgid "Number of levels"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:388
+msgid "Additional o&ptions"
+msgstr ""
+
+#: src/frontends/qt4/ui/PDFSupportUi.ui:417
+msgid "e.g.: pdfstartview=XYZ, plainpages=false, pdfpagelabels"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:28
+msgid "Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:38
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:48
+msgid "Type"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:60
+msgid "Horizontal and vertical space of the phantom content"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:63
+msgid "&Phantom"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:70
+msgid "Horizontal space of the phantom content"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:73
+msgid "&Horizontal Phantom"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:80
+msgid "Vertical space of the phantom content"
+msgstr ""
+
+#: src/frontends/qt4/ui/PhantomUi.ui:83
+msgid "&Vertical Phantom"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefColorsUi.ui:46
+msgid "A&lter..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefColorsUi.ui:81
+msgid "&Use system colors"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:25
+msgid "In Math"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:40
+msgid "Show the grey inline completion behind the cursor in math mode after the delay."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:43
+msgid "Automatic in&line completion"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:50
+msgid "Show the popup in math mode after the delay."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:53
+msgid "Automatic p&opup"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:60
+msgid "Autoco&rrection"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:70
+msgid "In Text"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:85
+msgid "Show the grey inline completion behind the cursor in text mode after the delay."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:88
+msgid "Automatic &inline completion"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:95
+msgid "Show the popup after the set delay in text mode."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:98
+msgid "Automatic &popup"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:105
+msgid "Show a small triangle on the cursor if a completion is available in text mode."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:108
+msgid "Cursor i&ndicator"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:118
+msgid "General"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:141
+msgid "After the cursor has not moved for this time, the inline completion is shown if it is available."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:154
+msgid "s inline completion dela&y"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:187
+msgid "After the cursor has not moved for this time, the completion popup is shown if it is available."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:200
+msgid "s popup d&elay"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:233
+msgid "."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:249
+msgid "Minimum word length for completion"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:274
+msgid "When the TAB completion is not unique, there won't be a delay of the popup. It will be shown right away."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:277
+msgid "Sho&w popup without delay for non-unique completions"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:284
+msgid "Long completions are cut-off and shown with \"...\"."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefCompletionUi.ui:287
+msgid "&Use \"...\" to shorten long completions"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:81
+msgid "C&onverter:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:91
+msgid "E&xtra flag:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:121
+msgid "&From format:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:153
+msgid "&To format:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:187
+msgid "A&dd"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:194
+msgid "&Modify"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:209
+msgid "Remo&ve"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:239
+msgid "Converter Defi&nitions"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:252
+msgid "Converter File Cache"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:272
+msgid "&Enabled"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefConvertersUi.ui:292
+msgid "Maximum A&ge (in days):"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:31
+msgid "Display &Graphics"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:51
+msgid "Instant &Preview:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:62
+msgid "Off"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:67
+msgid "No math"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:72
+msgid "On"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:80
+msgid "Preview Si&ze:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:96
+msgid "Factor for the preview size"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:118
+msgid "Mark end of paragraphs on screen with a pilcrow character."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDisplayUi.ui:121
+msgid "&Mark end of paragraphs"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:26
+msgid "Session handling"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:38
+msgid "Restore window layouts and &geometries"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:45
+msgid "Restore to the cursor position when the file was last closed"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:48
+msgid "Restore cursor &positions"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:55
+msgid "&Load opened files from last session"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:62
+msgid "&Clear all session information"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:85
+msgid "Backup && saving"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:94
+msgid "Backup &original documents when saving"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:103
+msgid "&Backup documents, every"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:120
+msgid "&minutes"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:145
+msgid "&Save documents compressed by default"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:155
+msgid "Windows && work area"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:164
+msgid "Open documents in &tabs"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:171
+msgid "Whether to open documents in an already running instance of LyX.\n(Set the LyXServer pipe path and restart LyX to enable this feature)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:174
+msgid "Use s&ingle instance"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:181
+msgid "Whether to place close button on each tab or only one in the top left."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:184
+msgid "Displa&y single close-tab button"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:193
+msgid "Closing last &view:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:204
+msgid "Closes document"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:209
+msgid "Hides document"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefDocHandlingUi.ui:214
+msgid "Ask the user"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:25
+msgid "Editing"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:37
+msgid "Cursor &follows scrollbar"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:46
+msgid "Configure the width of the text cursor. Automatic zoom-controlled cursor width used when set to 0."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:49
+msgid "Cursor width (&pixels):"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:90
+msgid "Scroll &below end of document"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:97
+msgid "Skip trailing non-word characters"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:100
+msgid "Use M&ac-style cursor movement"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:107
+msgid "Sort &environments alphabetically"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:114
+msgid "&Group environments by their category"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:122
+msgid "Edit Math Macros inline with a box around"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:127
+msgid "Edit Math Macros inline with the name in the status bar"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:132
+msgid "Edit Math Macros with a parameter list (like in LyX < 1.6)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:156
+msgid "Fullscreen"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:174
+msgid "&Hide toolbars"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:181
+msgid "Hide scr&ollbar"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:188
+msgid "Hide &tabbar"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:195
+msgid "Hide &menubar"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:202
+msgid "&Limit text width"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefEditUi.ui:214
+msgid "Screen used (&pixels):"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:20
+msgid "&Format:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:46
+msgid "&New..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:53
+msgid "Re&move"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:73
+msgid "&Document format"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:80
+msgid "Check this to show the current format in the File > Export menu"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:83
+msgid "Sho&w in export menu"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:90
+msgid "Vector &graphics format"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:97
+msgid "S&hort Name:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:110
+msgid "E&xtensions:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:123
+msgid "&MIME:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:136
+msgid "Shortc&ut:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:149
+msgid "Ed&itor:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:169
+msgid "&Viewer:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:189
+msgid "Co&pier:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:202
+msgid "Specify the default output format when using (PDF)LaTeX"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:205
+msgid "Default Output Formats"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:214
+msgid "With &TeX fonts:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:224
+msgid "The default output format for documents (except with non-TeX fonts)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:244
+msgid "With n&on-TeX fonts:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefFileformatsUi.ui:254
+msgid "The default output format for documents using non-TeX fonts"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefIdentityUi.ui:33
+msgid "&E-mail:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefIdentityUi.ui:43
+msgid "Your name"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefIdentityUi.ui:50
+msgid "&Name:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefIdentityUi.ui:60
+msgid "Your E-mail address"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:20
+msgid "Keyboard"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:32
+msgid "Use &keyboard map"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:45
+msgid "&Primary:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:65
+msgid "Br&owse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:91
+msgid "S&econdary:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:111
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:121
+msgid "Mac OS X specific setting for use with emacs bindings. Takes effect next time LyX is launched."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:124
+msgid "Do not swap Apple and Control keys"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:137
+msgid "Mouse"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:149
+msgid "&Wheel scrolling speed:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:159
+msgid "1.0 is the standard scrolling speed with the mouse wheel. Higher values will speed it up, low values slow it down."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:203
+msgid "Scroll wheel zoom"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:236
+msgid "Enable"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:250
+msgid "Ctrl"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:255
+msgid "Shift"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefInputUi.ui:260
+msgid "Alt"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:19
+msgid "User &interface language:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:29
+msgid "Select the language of the user interface (menus, dialogs, etc.)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:39
+msgid "Language &package:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:51
+msgid "Select which language package LyX should use"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:55
+msgid "Automatic"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:60
+msgid "Always Babel"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:65
+msgid "Custom"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:70
+msgid "None[[language package]]"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:78
+msgid "Enter the command to load the language package (default: \\usepackage{babel})"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:87
+msgid "Command s&tart:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:97
+msgid "The LaTeX command that starts a switch to a foreign language"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:117
+msgid "Command e&nd:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:127
+msgid "The LaTeX command that ends a switch to a foreign language"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:134
+msgid "Default Decimal &Separator:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:160
+msgid "Default length &unit:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:173
+msgid "Check to pass the language globally (to the document class), not locally (to the language package)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:176
+msgid "Set languages &globally"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:183
+msgid "If checked, the document language is not explicitly set by a language switch command"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:186
+msgid "Auto &begin"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:193
+msgid "If checked, the document language is not explicitly closed by a language switch command"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:196
+msgid "Auto &end"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:203
+msgid "Check to highlight foreign languages visually in the work area"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:206
+msgid "Mark &foreign languages"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:216
+msgid "Right-to-left language support"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:228
+msgid "Select to enable support of right-to-left languages (e.g. Hebrew, Arabic)."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:231
+msgid "Enable &RTL support"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:246
+msgid "Cursor movement:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:256
+msgid "&Logical"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLanguageUi.ui:266
+msgid "&Visual"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:24
+msgid "Enable if a specific font encoding (such as T1) should be used (via fontenc)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:27
+msgid "Use LaTe&X font encoding:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:34
+msgid "Specify the font encoding (e.g., T1)."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:41
+msgid "&DVI viewer paper size options:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:51
+msgid "Optional paper size flag (-paper) for some DVI viewers"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:73
+msgid "Bibliography generation"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:85
+msgid "&Processor:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:98
+msgid "&Options:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:108
+msgid "BibTeX command and options"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:128
+msgid "Processor for &Japanese:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:138
+msgid "Specific BibTeX command and options for pLaTeX (Japanese)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:161
+msgid "Index generation"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:173
+msgid "Pr&ocessor:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:199
+msgid "Op&tions:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:209
+msgid "Index command and options (makeindex, xindy)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:216
+msgid "Processor for &Japanese:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:226
+msgid "Specific index command and options for pLaTeX (Japanese)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:248
+msgid "&Nomenclature command:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:258
+msgid "Command and options for nomencl (usually makeindex)"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:265
+msgid "Chec&kTeX command:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:275
+msgid "CheckTeX start options and flags"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:285
+msgid "Select whether LyX should output Windows or Cygwin style paths to LaTeX files.\nChange the default only if the TeX engine was not correctly detected at configure time.\nWarning: Your changes here will not be saved."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:291
+msgid "&Use Windows-style paths in LaTeX files"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:298
+msgid "Set class options to default on class change"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefLatexUi.ui:301
+msgid "R&eset class options when document class changes"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:21
+msgid "Output &line length:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:37
+msgid "The maximum line length of exported plain text/LaTeX/SGML files. If set to 0, paragraphs are output in a single line; if the line length is > 0, paragraphs are separated by a blank line."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:64
+msgid "&Date format:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:80
+msgid "Date format for strftime output"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:104
+msgid "&Overwrite on export:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:115
+msgid "Ask permission"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:120
+msgid "Main file only"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:125
+msgid "All files"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:129
+msgid "What to do when existing files are going to be overwritten on export."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:151
+msgid "Forward search"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:171
+msgid "DV&I command:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefOutputUi.ui:207
+msgid "&PDF command:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:41
+msgid "&PATH prefix:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:51
+msgid "Specify those directories which should be prepended to the PATH environment variable.\nUse the OS native format."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:58
+msgid "TEX&INPUTS prefix:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:68
+msgid "Specify those directories which should be prepended to the TEXINPUTS environment variable.\nA '.' represents the current document directory. Use the OS native format."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:75
+msgid "Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:85
+msgid "T&hesaurus dictionaries:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:98
+msgid "Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:111
+msgid "&Temporary directory:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:121
+msgid "Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:134
+msgid "Ly&XServer pipe:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:144
+msgid "Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:157
+msgid "&Backup directory:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:167
+msgid "Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:180
+msgid "&Example files:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:190
+msgid "Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:203
+msgid "&Document templates:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:213
+msgid "Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:226
+msgid "&Working directory:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:236
+msgid "H&unspell dictionaries:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPathsUi.ui:249
+msgid "Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:41
+msgid "Printer Command Options"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:69
+msgid "Extension to be used when printing to file."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:72
+msgid "File ex&tension:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:85
+msgid "Option used to print to a file."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:88
+msgid "Print to &file:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:98
+msgid "Option used to print to non-default printer."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:101
+msgid "Set &printer:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:114
+msgid "Option used with spool command to set printer."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:117
+msgid "Spool &printer:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:130
+msgid "Command transmitted to the system to actually print the postscript file."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:136
+msgid "Spool co&mmand:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:153
+msgid "Option used to reverse page order."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:156
+msgid "Re&verse pages:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:169
+msgid "Lan&dscape:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:182
+msgid "&Number of copies:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:192
+msgid "Option used to set number of copies."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:199
+msgid "Option used to print a range of pages."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:206
+msgid "Co&llated:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:216
+msgid "Pa&ge range:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:226
+msgid "Option used to collate multiple copies."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:233
+msgid "&Odd pages:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:246
+msgid "&Even pages:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:256
+msgid "Paper t&ype:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:266
+msgid "Paper si&ze:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:279
+msgid "Any other options you'd like to use with the printer command."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:282
+msgid "E&xtra options:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:298
+msgid "Customizes output to a given printer. Expert option."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:301
+msgid "Normally, this needs to be checked only if you are using dvips as your printer command and you have config.<printer> files installed for all your printers."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:304
+msgid "Adapt &output to printer"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:311
+msgid "Name of the default printer"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:318
+msgid "Default &printer:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefPrinterUi.ui:331
+msgid "Printer co&mmand:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:69
+msgid "Sans Seri&f:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:107
+msgid "T&ypewriter:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:117
+msgid "R&oman:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:169
+msgid "&Zoom %:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:206
+msgid "Font Sizes"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:245
+msgid "&Large:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:255
+msgid "&Larger:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:265
+msgid "&Largest:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:278
+msgid "&Huge:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:288
+msgid "&Hugest:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:298
+msgid "S&mallest:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:308
+msgid "S&maller:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:318
+msgid "S&mall:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:328
+msgid "&Normal:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:338
+msgid "&Tiny:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:364
+msgid "Checking this improves performance, but might decrease the on-screen quality of fonts"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefScreenFontsUi.ui:367
+msgid "&Use pixmap cache to speed up font rendering"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefShortcutsUi.ui:54
+msgid "&Modify"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefShortcutsUi.ui:61
+msgid "Remo&ve"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefShortcutsUi.ui:68
+msgid "&New"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefShortcutsUi.ui:83
+msgid "Br&owse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefShortcutsUi.ui:90
+msgid "&Bind file:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefShortcutsUi.ui:108
+msgid "Show ke&y-bindings containing:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:41
+msgid "If unchecked, notes and comments will be excluded from spell checking"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:44
+msgid "Spellcheck &notes and comments"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:51
+msgid "&Spellchecker engine:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:64
+msgid "Accept words such as \"diskdrive\""
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:67
+msgid "Accept compound &words"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:74
+msgid "Mark misspelled words with a underline."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:77
+msgid "S&pellcheck continuously"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:100
+msgid "The characters inserted here are ignored by the spellchecker."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:107
+msgid "&Escape characters:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:117
+msgid "Override the language used for the spellchecker"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefSpellcheckerUi.ui:124
+msgid "Al&ternative language:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefsUi.ui:44
+msgid "&Restore"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefsUi.ui:70
+msgid "&Save"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefsUi.ui:80
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefsUi.ui:90
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:26
+msgid "General Look && Feel"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:37
+msgid "&User interface file:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:50
+msgid "Bro&wse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:74
+msgid "&Icon set:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:84
+msgid "The icon set to use. Warning: normal size of icons may be\nwrong until you save the preferences and restart LyX."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:108
+msgid "Use icons from system's &theme"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:120
+msgid "Context help"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:138
+msgid "Checking this allows the automatic display of helpful comments for insets in the main work area of an edited document"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:141
+msgid "&Enable tool tips in main work area"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:151
+msgid "Menus"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrefUi.ui:162
+msgid "&Maximum last files:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintindexUi.ui:28
+msgid "&Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintindexUi.ui:38
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintindexUi.ui:61
+msgid "Check if this index should be part (e.g., a section) of the former one."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintindexUi.ui:64
+msgid "&Subindex"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintindexUi.ui:79
+msgid "A&vailable indexes:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintindexUi.ui:89
+msgid "Select the index that shall be printed at this place of the document."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintNomenclUi.ui:13
+msgid "Nomenclature settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintNomenclUi.ui:19
+msgid "Define hanging indentation/label length for the nomenclature list."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintNomenclUi.ui:22
+msgid "&List Indentation:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintNomenclUi.ui:32
+msgid "Define hanging indentation/label length for the nomenclature list."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintNomenclUi.ui:39
+msgid "Custom &Width:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintNomenclUi.ui:52
+msgid "Custom value. \"List Indentation\" needs to be set to \"Custom\"."
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:28
+msgid "Pages"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:59
+msgid "Page number to print from"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:66
+msgid "&To:[[as in 'From page x to page y']]"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:79
+msgid "Page number to print to"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:88
+msgid "Print all pages"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:91
+msgid "Fro&m"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:101
+msgid "Print all pages"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:104
+msgid "&All"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:116
+msgid "Print &odd-numbered pages"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:126
+msgid "Print &even-numbered pages"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:136
+msgid "Print in reverse order"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:139
+msgid "Re&verse order"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:149
+msgid "Copie&s"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:161
+msgid "Number of copies"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:177
+msgid "Collate copies"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:180
+msgid "&Collate"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:230
+msgid "&Print"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:243
+msgid "Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:258
+msgid "Print Destination"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:270
+msgid "Send output to the printer"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:273
+msgid "P&rinter:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:283
+msgid "Send output to the given printer"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:290
+msgid "Send output to a file"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:293
+msgid "&File:"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:303
+msgid "Send output to a file"
+msgstr ""
+
+#: src/frontends/qt4/ui/PrintUi.ui:313
+msgid "&Browse..."
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:90
+msgid "Output"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:133
+msgid "Settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:145
+msgid "Select the debug messages that should be displayed"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:149
+msgid "1"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:173
+msgid "Automatic cleanup of the window before LaTeX compilation proceeds"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:176
+msgid "&Clear automatically"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:191
+msgid "Debug messages"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:203
+msgid "Display no debug messages"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:206
+msgid "&None"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:213
+msgid "Display the debug messages selected to the right"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:216
+msgid "S&elected"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:223
+msgid "Display all debug messages"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:226
+msgid "&All"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:236
+msgid "Display statusbar messages?"
+msgstr ""
+
+#: src/frontends/qt4/ui/ProgressViewUi.ui:239
+msgid "&Statusbar messages"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:22
+msgid "La&bels in:"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:49
+msgid "&References"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:60
+msgid "1"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:76
+msgid "Fil&ter:"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:89
+msgid "Enter string to filter the label list"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:99
+msgid "Filter case-sensitively"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:102
+msgid "Case-sensiti&ve"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:127
+msgid "Sort labels in alphabetical order (case-insensitively unless the Case-sensitive option is checked)"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:130
+msgid "&Sort"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:140
+msgid "Sort labels case-sensitively in alphabetical order"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:143
+msgid "Cas&e-sensitive"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:150
+msgid "Group labels by prefix (e.g. \"sec:\")"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:153
+msgid "Grou&p"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:181
+msgid "&Go to Label"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:190
+msgid "&Label:"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:212
+msgid "Cross-reference as it appears in output"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:216
+msgid "<reference>"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:221
+msgid "(<reference>)"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:226
+msgid "<page>"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:231
+msgid "on page <page>"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:236
+msgid "<reference> on page <page>"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:241
+msgid "Formatted reference"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:246
+msgid "Textual reference"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:257
+msgid "&Name:"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:291
+msgid "Update the label list"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:294
+msgid "&Update"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:317
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:330
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:343
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/RefUi.ui:355
+msgid "&Format:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:28
+msgid "&Find:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:66
+msgid "Replace &with:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:101
+msgid "Case &sensitive[[search]]"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:108
+msgid "Match w&hole words only"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:166
+msgid "Find &Next"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:179
+msgid "&Replace"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:189
+msgid "Replace &All"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:196
+msgid "Search &backwards"
+msgstr ""
+
+#: src/frontends/qt4/ui/SearchUi.ui:203
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/SendtoUi.ui:42
+msgid "Process the converted file with this command ($$FName = file name)"
+msgstr ""
+
+#: src/frontends/qt4/ui/SendtoUi.ui:72
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/SendtoUi.ui:85
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/SendtoUi.ui:92
+msgid "Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/SendtoUi.ui:101
+msgid "&Export formats:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SendtoUi.ui:111
+msgid "&Send exported file to command:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:13
+msgid "Edit shortcut"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:52
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:65
+msgid "Cancel"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:77
+msgid "Enter LyX function or command sequence"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:87
+msgid "Remove last key from the shortcut sequence"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:90
+msgid "&Delete Key"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:97
+msgid "Clear current shortcut"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:100
+msgid "C&lear"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:107
+msgid "&Shortcut:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:117
+msgid "&Function:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShortcutUi.ui:130
+msgid "Type shortcut after clicking on this field. You can reset the content with the 'Clear' button"
+msgstr ""
+
+#: src/frontends/qt4/ui/ShowFileUi.ui:55
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:19
+msgid "Spell Checker"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:27
+msgid "&Language:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:43
+msgid "The checked language. Switching this alters the language of the checked word."
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:59
+msgid "Unknown word:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:69
+msgid "Current word"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:85
+msgid "&Find Next"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:92
+msgid "Re&placement:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:105
+msgid "Replace with selected word"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:130
+msgid "Replace word with current choice"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:133
+msgid "&Replace"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:146
+msgid "S&uggestions:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:165
+msgid "Replace &All"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:181
+msgid "Ignore this word"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:184
+msgid "&Ignore"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:197
+msgid "Ignore this word throughout this session"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:200
+msgid "I&gnore All"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:213
+msgid "Add the word to your personal dictionary"
+msgstr ""
+
+#: src/frontends/qt4/ui/SpellcheckerUi.ui:216
+msgid "A&dd"
+msgstr ""
+
+#: src/frontends/qt4/ui/SymbolsUi.ui:49
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/SymbolsUi.ui:56
+msgid "Insert the delimiters"
+msgstr ""
+
+#: src/frontends/qt4/ui/SymbolsUi.ui:59
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/SymbolsUi.ui:66
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/SymbolsUi.ui:83
+msgid "Available categories depend on the document encoding. Select UTF-8 for the full range."
+msgstr ""
+
+#: src/frontends/qt4/ui/SymbolsUi.ui:86
+msgid "Ca&tegory:"
+msgstr ""
+
+#: src/frontends/qt4/ui/SymbolsUi.ui:116
+msgid "Select this to display all available characters at once"
+msgstr ""
+
+#: src/frontends/qt4/ui/SymbolsUi.ui:119
+msgid "&Display all"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularCreateUi.ui:65
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularCreateUi.ui:72
+msgid "Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularCreateUi.ui:81
+msgid "Number of rows"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularCreateUi.ui:84
+msgid "&Rows:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularCreateUi.ui:110
+msgid "Number of columns"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularCreateUi.ui:113
+msgid "&Columns:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularCreateUi.ui:123
+msgid "Number of rows"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularCreateUi.ui:139
+msgid "Number of columns"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:27
+msgid "Current cell:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:49
+msgid "Current row position"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:71
+msgid "Current column position"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:106
+msgid "&Table Settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:112
+msgid "Row setting"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:118
+msgid "Merge cells of different rows"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:121
+msgid "M&ultirow"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:133
+msgid "&Vertical Offset:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:146
+msgid "Optional vertical offset"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:164
+msgid "Cell setting"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:172
+msgid "Rotate this cell by 90 degrees"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:175
+msgid "Rotate"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:188
+msgid "rotation angle"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:207
+msgid "degrees"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:238
+msgid "Table-wide settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:244
+msgid "W&idth:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:260
+msgid "Verti&cal alignment:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:270
+msgid "Vertical alignment of the table"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:277
+msgid "Top"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:282
+msgid "Middle"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:287
+msgid "Bottom"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:316
+msgid "Rotate the table by 90 degrees"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:319
+msgid "&Rotate"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:332
+msgid "rotation angle"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:351
+msgid "degrees"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:366
+msgid "Column settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:372
+msgid "&Horizontal alignment:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:382
+msgid "Horizontal alignment in column"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:386
+msgid "Justified"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:391
+msgid "Left"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:396
+msgid "Center"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:401
+msgid "Right"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:406
+msgid "At Decimal Separator"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:432
+msgid "&Decimal separator:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:475
+msgid "&Width:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:490
+msgid "Fixed width of the column"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:518
+msgid "&Vertical alignment in row:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:528
+msgid "Specifies the vertical alignment of this cell in relation to the baseline of the row."
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:532
+msgid "Top"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:537
+msgid "Middle"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:542
+msgid "Bottom"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:550
+msgid "Merge cells of different columns"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:553
+msgid "&Multicolumn"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:560
+msgid "LaTe&X argument:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:570
+msgid "Custom column format (LaTeX)"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:584
+msgid "&Borders"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:590
+msgid "Set Borders"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1086
+msgid "Set borders of the current (selected) cell(s)"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1099
+msgid "All Borders"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1105
+msgid "Set all borders of the current (selected) cell(s)"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1108
+msgid "&Set"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1115
+msgid "Unset all borders of the current (selected) cell(s)"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1118
+msgid "C&lear"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1128
+msgid "Style"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1134
+msgid "Use formal (a.k.a. booktabs) border style (no vertical borders)"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1137
+msgid "Fo&rmal"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1147
+msgid "Use default (grid-like) border style"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1150
+msgid "De&fault"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1176
+msgid "Additional Space"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1182
+msgid "T&op of row:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1199
+msgid "None"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1204
+msgid "Default"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1209
+msgid "Custom"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1218
+msgid "None"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1223
+msgid "Default"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1228
+msgid "Custom"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1242
+msgid "Botto&m of row:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1255
+msgid "Bet&ween rows:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1266
+msgid "None"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1271
+msgid "Default"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1276
+msgid "Custom"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1304
+msgid "&Longtable"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1310
+msgid "Select for tables that span multiple pages"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1313
+msgid "&Use long table"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1323
+msgid "Row settings"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1329
+msgid "Status"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1336
+msgid "Border above"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1343
+msgid "Border below"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1350
+msgid "Contents"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1357
+msgid "Header:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1364
+msgid "Repeat this row as header on every (except the first) page"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1367
+msgid "on"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1377
+msgid "double"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1384
+msgid "double"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1391
+msgid "First header:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1398
+msgid "This row is the header of the first page"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1404
+msgid "on"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1411
+msgid "double"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1418
+msgid "double"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1425
+msgid "Don't output the first header"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1428
+msgid "is empty"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1435
+msgid "Footer:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1442
+msgid "Repeat this row as footer on every (except the last) page"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1445
+msgid "on"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1452
+msgid "double"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1459
+msgid "double"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1466
+msgid "Last footer:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1473
+msgid "This row is the footer of the last page"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1476
+msgid "on"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1483
+msgid "double"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1490
+msgid "double"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1497
+msgid "Don't output the last footer"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1500
+msgid "is empty"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1507
+msgid "Caption:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1514
+msgid "on"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1524
+msgid "Set a page break on the current row"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1527
+msgid "Page &break on current row"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1540
+msgid "Horizontal alignment of the longtable"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1543
+msgid "Longtable alignment"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1549
+msgid "Left"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1556
+msgid "Center"
+msgstr ""
+
+#: src/frontends/qt4/ui/TabularUi.ui:1566
+msgid "Right"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:55
+msgid "Close this dialog"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:58
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:91
+msgid "Rebuild the file lists"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:94
+msgid "&Rescan"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:104
+msgid "Show contents of marked file. Only possible when files are shown with path"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:107
+msgid "&View"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:124
+msgid "Selected classes or styles"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:128
+msgid "LaTeX classes"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:133
+msgid "LaTeX styles"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:138
+msgid "BibTeX styles"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:143
+msgid "BibTeX databases"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:167
+msgid "Toggles view of the file list"
+msgstr ""
+
+#: src/frontends/qt4/ui/TexinfoUi.ui:170
+msgid "Show &path"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:20
+msgid "Separate paragraphs with"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:35
+msgid "Indent consecutive paragraphs"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:38
+msgid "&Indentation:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:48
+msgid "Size of the indentation"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:116
+msgid "&Vertical space:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:126
+msgid "Size of the vertical space"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:191
+msgid "Spacing"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:209
+msgid "&Line spacing:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:219
+msgid "Spacing type"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:232
+msgid "Number of lines"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:271
+msgid "Format text into two columns"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:274
+msgid "Two-&column document"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:281
+msgid "Justify text in the LyX editor (this does not affect whether the text is justified in the output)"
+msgstr ""
+
+#: src/frontends/qt4/ui/TextLayoutUi.ui:284
+msgid "Use &justification in LyX work area"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:22
+msgid "&Language:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:32
+msgid "Language of the thesaurus"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:39
+msgid "Index entry"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:42
+msgid "&Keyword:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:52
+msgid "Word to look up"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:65
+msgid "L&ookup"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:72
+msgid "The selected entry"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:75
+msgid "&Selection:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:85
+msgid "The selected entry"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:92
+msgid "Replace the entry with the selection"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:95
+msgid "&Replace"
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:102
+msgid "Click to select a proposal, double click to look it up."
+msgstr ""
+
+#: src/frontends/qt4/ui/ThesaurusUi.ui:138
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:36
+msgid "Filter:"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:46
+msgid "Enter string to filter contents"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:63
+msgid "Switch between available lists (table of contents, list of figures, list of tables, and others)"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:90
+msgid "Update navigation tree"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:93
+msgid "..."
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:122
+msgid "Decrease nesting depth of selected item"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:125
+msgid "..."
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:141
+msgid "Increase nesting depth of selected item"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:144
+msgid "..."
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:160
+msgid "Move selected item down by one"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:163
+msgid "..."
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:179
+msgid "Move selected item up by one"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:182
+msgid "..."
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:225
+msgid "Sort"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:246
+msgid "Try to keep persistent view of the uncollapsed nodes"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:249
+msgid "Keep"
+msgstr ""
+
+#: src/frontends/qt4/ui/TocUi.ui:266
+msgid "Adjust the depth of the navigation tree"
+msgstr ""
+
+#: src/frontends/qt4/ui/ToggleWarningUi.ui:13
+msgid "LyX: Enter text"
+msgstr ""
+
+#: src/frontends/qt4/ui/ToggleWarningUi.ui:44
+msgid "If you check this, LyX will not warn you again in the given case."
+msgstr ""
+
+#: src/frontends/qt4/ui/ToggleWarningUi.ui:47
+msgid "&Do not show this warning again!"
+msgstr ""
+
+#: src/frontends/qt4/ui/ToggleWarningUi.ui:90
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:90
+msgid "F&ormat:"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:109
+msgid "Select the output format"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:127
+msgid "Show the source as the master document gets it"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:130
+msgid "&Master's perspective"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:137
+msgid "Automatic update"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:150
+msgid "&Update"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:164
+msgid "Current Paragraph"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:169
+msgid "Complete Source"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:174
+msgid "Preamble Only"
+msgstr ""
+
+#: src/frontends/qt4/ui/ViewSourceUi.ui:179
+msgid "Body Only"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:22
+msgid "&Spacing:"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:32
+msgid "Insert the spacing even after a page break"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:45
+msgid "&Protect:"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:61
+msgid "Custom value. Needs spacing type \"Custom\"."
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:68
+msgid "&Value:"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:78
+msgid "Supported spacing types"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:82
+msgid "DefSkip"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:87
+msgid "SmallSkip"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:92
+msgid "MedSkip"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:97
+msgid "BigSkip"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:102
+msgid "VFill"
+msgstr ""
+
+#: src/frontends/qt4/ui/VSpaceUi.ui:107
+msgid "Custom"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:45
+msgid "Unit of width value"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:68
+msgid "number of needed lines"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:75
+msgid "use number of lines"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:78
+msgid "&Line span:"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:85
+msgid "&Width:"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:103
+msgid "Width value"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:121
+msgid "&Restore"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:150
+msgid "&OK"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:163
+msgid "&Apply"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:173
+msgid "&Close"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:185
+msgid "&Placement:"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:195
+msgid "Vertical alignment"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:199
+msgid "Outer (default)"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:204
+msgid "Inner"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:209
+msgid "Left"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:214
+msgid "Right"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:222
+msgid "use overhang"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:225
+msgid "Over&hang:"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:246
+msgid "Overhang value"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:273
+msgid "Unit of overhang value"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:280
+msgid "Check this to allow flexible placement"
+msgstr ""
+
+#: src/frontends/qt4/ui/WrapUi.ui:283
+msgid "Allow &floating"
+msgstr ""
+
