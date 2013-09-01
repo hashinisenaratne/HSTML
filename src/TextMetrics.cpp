@@ -2113,6 +2113,11 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 		}
 	}
 
+	CursorSlice const & cs = cur.bottom();
+	ParagraphMetrics const & bottom_pm = cur.bv().parMetrics(cs.text(), cs.pit());
+	bool const bndry = (cur.depth() == 1) &&  cur.boundary();
+	Row const & cur_bottom_row = bottom_pm.getRow(cs.pos(), bndry);
+	
 	for (size_t i = 0; i != nrows; ++i) {
 
 		Row const & row = pm.rows()[i];
@@ -2135,7 +2140,7 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 		int new_x=x;	
 
 		// condition to handle horizontal sliding for too long insects
-   		if (&cur.textRow() == &row)
+		if (&cur_bottom_row == &row)
 		{
 			//if no need to slide from current position
    			if(cur_x<(left_edge+screen_width) 
