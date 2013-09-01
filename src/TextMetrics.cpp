@@ -2123,7 +2123,11 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 			&& y - row.ascent() < ww);
 		// It is not needed to draw on screen if we are not inside.
 		pi.pain.setDrawingEnabled(inside && original_drawing_state);
-		RowPainter rp(pi, *text_, pit, row, bidi, x, y);
+		
+		int inc_x=x;							//save x position of the row to a new variable		
+		inc_x-=100;								//sliding all the rows with 10 pixels
+			
+		RowPainter rp(pi, *text_, pit, row, bidi, inc_x, y);	//initialize Rowpainter with new x
 
 		if (selection)
 			row.setSelectionAndMargins(sel_beg_par, sel_end_par);
