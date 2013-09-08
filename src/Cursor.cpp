@@ -278,7 +278,7 @@ CursorData::CursorData(DocIterator const & dit)
 // bv functions are not yet available!
 Cursor::Cursor(BufferView & bv)
 	: CursorData(&bv.buffer()), bv_(&bv), 
-	  x_target_(-1), textTargetOffset_(0)
+	  x_target_(-1), textTargetOffset_(0),left_edge_(0)
 {}
 
 
@@ -538,7 +538,33 @@ Row const & Cursor::textRow() const
 {
 	CursorSlice const & cs = innerTextSlice();
 	ParagraphMetrics const & pm = bv().parMetrics(cs.text(), cs.pit());
-	return pm.getRow(pos(), boundary());
+	bool const bndry = inTexted() ? boundary() : false;
+	return pm.getRow(cs.pos(), bndry);
+}
+
+int Cursor::getLeftEdge() const
+{
+	return left_edge_;
+}
+
+Row const & Cursor::getToowideRow()
+{
+	return *too_wide_row_;
+}
+
+void Cursor::setLeftEdge(int leftEdge)
+{
+	left_edge_ = leftEdge;
+}
+
+void Cursor::setLeftEdge(int leftEdge) const
+{
+	const_cast<Cursor *>(this)->setLeftEdge(leftEdge);
+}
+
+void Cursor::setToowideRow(Row & wideRow) const
+{
+	*too_wide_row_ = wideRow;
 }
 
 
@@ -1739,6 +1765,7 @@ int Cursor::targetX() const
 	int x = 0;
 	int y = 0;
 	getPos(x, y);
+	const_cast<Cursor *>(this)->setLeftEdge(0);
 	return x;
 }
 
@@ -1755,6 +1782,14 @@ void Cursor::setTargetX()
 	int y;
 	getPos(x, y);
 	setTargetX(x);
+}
+
+void Cursor::setTargetX() const
+{
+	int x;
+	int y;
+	getPos(x, y);
+	const_cast<Cursor *>(this)->setTargetX(x);
 }
 
 
@@ -1842,8 +1877,10 @@ bool Cursor::upDownInMath(bool up)
 
 	// check if we had something else in mind, if not, this is the future
 	// target
-	if (x_target_ == -1)
+	if (x_target_ == -1){
 		setTargetX(xo);
+		left_edge_=0;
+	}
 	else if (inset().asInsetText() && xo - textTargetOffset() != x_target()) {
 		// In text mode inside the line (not left or right) possibly set a new target_x,
 		// but only if we are somewhere else than the previous target-offset.
@@ -1981,8 +2018,10 @@ bool Cursor::upDownInText(bool up, bool & updateNeeded)
 	// update the targetX - this is here before the "return false"
 	// to set a new target which can be used by InsetTexts above
 	// if we cannot move up/down inside this inset anymore
-	if (x_target_ == -1)
+	if (x_target_ == -1){
 		setTargetX(xo);
+		left_edge_=0;
+	}
 	else if (xo - textTargetOffset() != x_target() &&
 					 depth() == beforeDispatchCursor_.depth()) {
 		// In text mode inside the line (not left or right)
@@ -2548,3 +2587,4 @@ void Cursor::checkBufferStructure()
 
 
 } // namespace lyx
+

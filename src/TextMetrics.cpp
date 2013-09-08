@@ -2113,6 +2113,11 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 		}
 	}
 
+	CursorSlice const & cs = cur.bottom();
+	ParagraphMetrics const & bottom_pm = cur.bv().parMetrics(cs.text(), cs.pit());
+	bool const bndry = (cur.depth() == 1) &&  cur.boundary();
+	Row const & cur_bottom_row = bottom_pm.getRow(cs.pos(), bndry);
+
 	for (size_t i = 0; i != nrows; ++i) {
 
 		Row const & row = pm.rows()[i];
@@ -2123,7 +2128,44 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 			&& y - row.ascent() < ww);
 		// It is not needed to draw on screen if we are not inside.
 		pi.pain.setDrawingEnabled(inside && original_drawing_state);
-		RowPainter rp(pi, *text_, pit, row, bidi, x, y);
+	
+		BufferView & bv = cur.bv();
+
+		// Current screen width in pixels
+		int const screen_width = bv.workWidth();
+
+		// Current x position of the cursor in pixels
+		int cur_x = bv.getPos(cur).x_;
+
+		// Left edge value of the screen in pixels
+		int left_edge = cur.getLeftEdge();
+
+		// New x value modified to handle horizontal scrolling
+		int new_x = x;	
+
+		// Loop to handle horizontal sliding for too long insets
+   		if (&cur_bottom_row == &row)
+		{
+			// If no need to slide from current position
+   			if (cur_x < (left_edge + screen_width) 
+				&& cur_x > left_edge) {
+				new_x -= left_edge;
+			}
+
+			// If need to slide right
+    			else if (cur_x <= left_edge) {
+				new_x -= cur_x - 10;
+				cur.setLeftEdge(cur_x - 10);
+			}
+    			
+			// If need to slide left
+			else if (cur_x >= left_edge + screen_width) {
+				new_x -= cur_x - screen_width + 10;
+				cur.setLeftEdge(left_edge + (cur_x - (left_edge + screen_width)) + 10);
+			}
+		}
+
+		RowPainter rp(pi, *text_, pit, row, bidi, new_x, y);
 
 		if (selection)
 			row.setSelectionAndMargins(sel_beg_par, sel_end_par);
@@ -2201,6 +2243,7 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 		// Restore full_repaint status.
 		pi.full_repaint = tmp;
 	}
+
 	// Re-enable screen drawing for future use of the painter.
 	pi.pain.setDrawingEnabled(original_drawing_state);
 
