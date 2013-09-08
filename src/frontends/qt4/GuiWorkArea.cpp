@@ -627,6 +627,16 @@ void GuiWorkArea::Private::showCursor()
 		&& !completer_->inlineVisible();
 	cursor_visible_ = true;
 	cursor_->recomputeWidth();
+
+	// expansion to show cursor on screen for too long insects
+	BufferView & bv = cur.bv();
+	int cur_x=cur.targetX();
+	int const maxwidth = bv.workWidth();
+	if (cur_x >= maxwidth)
+	{
+		p.x_=maxwidth-5;
+	}
+
 	showCursor(p.x_, p.y_, h, l_shape, isrtl, completable);
 }
 
@@ -1980,7 +1990,7 @@ void TabWorkArea::updateTabTexts()
 	for (It it = paths.begin(); it != paths.end(); ++it) {
 		int const tab_index = it->tab();
 		Buffer const & buf = workArea(tab_index)->bufferView().buffer();
-		QString tab_text = it->displayString().replace("&", "&&");
+		QString tab_text = it->displayString();
 		if (!buf.fileName().empty() && !buf.isClean())
 			tab_text += "*";
 		setTabText(tab_index, tab_text);
