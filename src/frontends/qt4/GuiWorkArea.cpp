@@ -628,14 +628,15 @@ void GuiWorkArea::Private::showCursor()
 	cursor_visible_ = true;
 	cursor_->recomputeWidth();
 
-	// expansion to show cursor on screen for too long insects
 	BufferView & bv = cur.bv();
-	int cur_x=cur.targetX();
+	int cur_x = bv.getPos(cur).x_;
 	int const maxwidth = bv.workWidth();
-	if (cur_x >= maxwidth)
-	{
-		p.x_=maxwidth-5;
-	}
+
+	// Left edge value of the screen in pixels
+	int left_edge = cur.getLeftEdge();
+
+	// To show cursor on screen for too long insects
+	p.x_ = cur_x - left_edge;
 
 	showCursor(p.x_, p.y_, h, l_shape, isrtl, completable);
 }
