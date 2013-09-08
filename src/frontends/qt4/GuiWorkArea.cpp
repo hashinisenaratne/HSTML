@@ -627,16 +627,12 @@ void GuiWorkArea::Private::showCursor()
 		&& !completer_->inlineVisible();
 	cursor_visible_ = true;
 	cursor_->recomputeWidth();
+	
+	int cur_x = buffer_view_->getPos(cur).x_;
 
-	BufferView & bv = cur.bv();
-	int cur_x = bv.getPos(cur).x_;
-	int const maxwidth = bv.workWidth();
-
-	// Left edge value of the screen in pixels
-	int left_edge = cur.getLeftEdge();
-
-	// To show cursor on screen for too long insects
-	p.x_ = cur_x - left_edge;
+	// We may have decided to slide the cursor row so that cursor
+	// is visible.
+	p.x_ = cur_x - cur.getLeftEdge();
 
 	showCursor(p.x_, p.y_, h, l_shape, isrtl, completable);
 }

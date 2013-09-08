@@ -542,29 +542,34 @@ Row const & Cursor::textRow() const
 	return pm.getRow(cs.pos(), bndry);
 }
 
+
 int Cursor::getLeftEdge() const
 {
 	return left_edge_;
 }
 
-Row const & Cursor::getToowideRow()
+
+Row const & Cursor::getCurrentRow() const
 {
-	return *too_wide_row_;
+	return *current_row_;
 }
+
 
 void Cursor::setLeftEdge(int leftEdge)
 {
 	left_edge_ = leftEdge;
 }
 
+
 void Cursor::setLeftEdge(int leftEdge) const
 {
 	const_cast<Cursor *>(this)->setLeftEdge(leftEdge);
 }
 
-void Cursor::setToowideRow(Row & wideRow) const
+
+void Cursor::setCurrentRow(Row const & wideRow) const
 {
-	*too_wide_row_ = wideRow;
+	*current_row_ = wideRow;
 }
 
 
@@ -1782,14 +1787,6 @@ void Cursor::setTargetX()
 	int y;
 	getPos(x, y);
 	setTargetX(x);
-}
-
-void Cursor::setTargetX() const
-{
-	int x;
-	int y;
-	getPos(x, y);
-	const_cast<Cursor *>(this)->setTargetX(x);
 }
 
 
