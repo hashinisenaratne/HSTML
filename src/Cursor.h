@@ -224,6 +224,15 @@ public:
 	void getSurroundingPos(pos_type & left_pos, pos_type & right_pos);
 	/// the row in the paragraph we're in
 	Row const & textRow() const;
+	/// returns the pixel value at the left edge of the screen
+	int getLeftEdge() const;
+	/// set the pixel value at the left edge of the screen
+	void setLeftEdge(int leftEdge) const;
+	void setLeftEdge(int leftEdge);
+	/// returns the row which slid finally
+	Row const & getToowideRow();
+	/// set the row which slid finally
+	void setToowideRow(Row & wideRow) const;
 
 	//
 	// common part
@@ -281,6 +290,8 @@ public:
 	int x_target() const;
 	/// set targetX to current position
 	void setTargetX();
+	/// set targetX to current position
+	void setTargetX() const;
 	/// clear targetX, i.e. set it to -1
 	void clearTargetX();
 	/// set offset to actual position - targetX
@@ -436,6 +447,10 @@ private:
 	/// cursor screen coordinates before dispatch started
 	int beforeDispatchPosX_;
 	int beforeDispatchPosY_;
+	/// the value of the offset for the row the cursor is in
+	int left_edge_;
+	/// a pointer to the row the cursor was in when applying a too wide offset.
+	Row * too_wide_row_;
 
 ///////////////////////////////////////////////////////////////////
 //
