@@ -2147,22 +2147,23 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
    		if (&cur_bottom_row == &row)
 		{
 			// If no need to slide from current position
-   			if (cur_x < (left_edge + screen_width) 
-				&& cur_x > left_edge) {
-				new_x -= left_edge;
+   			if (cur_x <= (left_edge + screen_width - 10) 
+   				&& cur_x >= left_edge + 10) {         
+				//do nothing
 			}
 
 			// If need to slide right
-    			else if (cur_x <= left_edge) {
+   			else if (cur_x < left_edge + 10) {
 				new_x -= cur_x - 10;
 				cur.setLeftEdge(cur_x - 10);
 			}
     			
-			// If need to slide left
-			else if (cur_x >= left_edge + screen_width) {
-				new_x -= cur_x - screen_width + 10;
-				cur.setLeftEdge(left_edge + (cur_x - (left_edge + screen_width)) + 10);
+   			// If need to slide left (cur_x > left_edge + screen_width - 10)
+   			else {
+   				cur.setLeftEdge(cur_x - screen_width + 10);
 			}
+   			
+   			new_x -= left_edge;
 		}
 
 		RowPainter rp(pi, *text_, pit, row, bidi, new_x, y);
