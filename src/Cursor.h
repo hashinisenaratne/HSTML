@@ -4,51 +4,10 @@
  * This file is part of LyX, the document processor.
  * Licence details can be found in the file COPYING.
  *
- * \author André Pönitz
+ * \author AndrÃ© PÃ¶nitz
  *
  * Full author contact details are available in file CREDITS.
  */
-
-/*
-First some explanation about what a Cursor really is. I try to go from
-more local to general.
-
-* a CursorSlice indicates the position of the cursor at local level.
-It contains in particular:
-  * idx(): the cell that contains the cursor (for Tabular or math
-           arrays). Always 0 for 'plain' insets
-  * pit(): the index of the current paragraph (only for Texted)
-  * pos(): the position in the current paragraph (or in the math
-           equation in Mathed).
-  * inset(): the inset in which the cursor is.
-
-* a DocIterator indicated the position of the cursor in the document.
-  It knows about the current buffer (buffer() method) and contains a
-  vector of CursorSlices that describes the nesting of insets up to the
-  point of interest. Note that operator<< has been implemented, so that
-  one can send a DocIterator to a stream to see its value. Try it, it is
-  very helpful to understand the cursor layout.
-  * when using idx/pit/pos on a DocIterator, one gets the information
-    from the inner slice (this slice can be accessed as top())
-  * inMathed() returns true when the cursor is in a math formula
-  * inTexted() returns true when the cursor is in text
-  * innerTextSlice() returns the deepest slice that is text (useful
-    when one is in a math equation and looks for the enclosing text)
-
-* A CursorData is a descendent of Dociterator that contains
-  * a second DocIterator object, the anchor, that is useful when
-    selecting.
-  * some other data not interesting here
-This class is used only for undo and contains the Cursor element that
-are not GUI-related. In LyX 2.0, Cursor was directly deriving from
-DocIterator
-
-* A Cursor is a descendant of CursorData that contains interesting
-  display-related information, in particular targetX(), the horizontal
-  position of the cursor in pixels.
-  * one interesting method for what you want to do is textRow(), that
-    returns the inner Row object that contains the cursor
-*/
 
 #ifndef LCURSOR_H
 #define LCURSOR_H
@@ -59,6 +18,8 @@ DocIterator
 #include "Undo.h"
 
 #include "mathed/MathParser_flags.h"
+
+//#include "Row.h"
 
 
 namespace lyx {
@@ -224,15 +185,22 @@ public:
 	void getSurroundingPos(pos_type & left_pos, pos_type & right_pos);
 	/// the row in the paragraph we're in
 	Row const & textRow() const;
+	/// the top-level row that holds the cursor
+	Row const & bottomRow() const;
+
+	///
+	/// Methods useful for horizontal scrolling of rows
+	///
 	/// returns the pixel value at the left edge of the screen
 	int getLeftEdge() const;
 	/// set the pixel value at the left edge of the screen
 	void setLeftEdge(int leftEdge) const;
-	void setLeftEdge(int leftEdge);
-	/// returns the row which slid finally
-	Row const & getToowideRow();
-	/// set the row which slid finally
-	void setToowideRow(Row & wideRow) const;
+	/// return the row where cursor is currently
+	Row const * getCurrentRow() const;
+	/// set the row where cursor is currently
+	void setCurrentRow(Row const * wideRow) const;
+	/// return the row where cursor was at previous draw event
+	Row const * getPreviousRow() const;
 
 	//
 	// common part
@@ -290,8 +258,6 @@ public:
 	int x_target() const;
 	/// set targetX to current position
 	void setTargetX();
-	/// set targetX to current position
-	void setTargetX() const;
 	/// clear targetX, i.e. set it to -1
 	void clearTargetX();
 	/// set offset to actual position - targetX
@@ -447,10 +413,12 @@ private:
 	/// cursor screen coordinates before dispatch started
 	int beforeDispatchPosX_;
 	int beforeDispatchPosY_;
-	/// the value of the offset for the row the cursor is in
-	int left_edge_;
-	/// a pointer to the row the cursor was in when applying a too wide offset.
-	Row * too_wide_row_;
+	/// the the pixel value at the left edge of the screen where the cursor is in
+	mutable int left_edge_;
+	/// a pointer to the row where cursor is currently
+	mutable Row const * current_row_;
+	/// a pointer to the row where cursor was at previous draw event
+	mutable Row const * previous_row_;
 
 ///////////////////////////////////////////////////////////////////
 //

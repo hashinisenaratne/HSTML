@@ -4,19 +4,18 @@
  * Licence details can be found in the file COPYING.
  *
  * \author Asger Alstrup
- * \author Lars Gullik Bjønnes
+ * \author Lars Gullik BjÃ¸nnes
  * \author Jean-Marc Lasgouttes
  * \author John Levon
- * \author André Pönitz
+ * \author AndrÃ© PÃ¶nitz
  * \author Dekel Tsur
- * \author Jürgen Vigna
+ * \author JÃ¼rgen Vigna
  * \author Abdelrazak Younes
  *
  * Full author contact details are available in file CREDITS.
  */
 
 #include <config.h>
-
 #include "TextMetrics.h"
 
 #include "Bidi.h"
@@ -2088,6 +2087,7 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 	size_t const nrows = pm.rows().size();
 
 	Cursor const & cur = bv_->cursor();
+	//Cursor & cur = pi.bv_.cursor();
 	DocIterator sel_beg = cur.selectionBegin();
 	DocIterator sel_end = cur.selectionEnd();
 	bool selection = cur.selection()
@@ -2113,11 +2113,6 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 		}
 	}
 
-	CursorSlice const & cs = cur.bottom();
-	ParagraphMetrics const & bottom_pm = cur.bv().parMetrics(cs.text(), cs.pit());
-	bool const bndry = (cur.depth() == 1) &&  cur.boundary();
-	Row const & cur_bottom_row = bottom_pm.getRow(cs.pos(), bndry);
-
 	for (size_t i = 0; i != nrows; ++i) {
 
 		Row const & row = pm.rows()[i];
@@ -2126,52 +2121,38 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 
 		bool const inside = (y + row.descent() >= 0
 			&& y - row.ascent() < ww);
+
 		// It is not needed to draw on screen if we are not inside.
 		pi.pain.setDrawingEnabled(inside && original_drawing_state);
-	
-		BufferView & bv = cur.bv();
 
-		// Current screen width in pixels
-		int const screen_width = bv.workWidth();
-
-		// Current x position of the cursor in pixels
-		int cur_x = bv.getPos(cur).x_;
-
-		// Left edge value of the screen in pixels
-		int left_edge = cur.getLeftEdge();
-
-		// New x value modified to handle horizontal scrolling
-		int new_x = x;	
-
-		// Loop to handle horizontal sliding for too long insets
-   		if (&cur_bottom_row == &row)
-		{
-			// If no need to slide from current position
-   			if (cur_x < (left_edge + screen_width) 
-				&& cur_x > left_edge) {
-				new_x -= left_edge;
-			}
+		// Check for too wide insets to handle horizontal sliding
+   		if (cur.getCurrentRow() == &row) {
+			// Current x position of the cursor in pixels
+			int const cur_x = bv_->getPos(cur).x_;
+ 
+			// Left edge value of the screen in pixels
+			int left_edge = cur.getLeftEdge();
 
 			// If need to slide right
-    			else if (cur_x <= left_edge) {
-				new_x -= cur_x - 10;
-				cur.setLeftEdge(cur_x - 10);
+    			if (cur_x < left_edge + 10) {
+				left_edge = cur_x - 10;
 			}
-    			
-			// If need to slide left
-			else if (cur_x >= left_edge + screen_width) {
-				new_x -= cur_x - screen_width + 10;
-				cur.setLeftEdge(left_edge + (cur_x - (left_edge + screen_width)) + 10);
+
+			// If need to slide left ()
+			else if (cur_x > left_edge + bv_->workWidth() - 10) {
+				left_edge = cur_x - bv_->workWidth() + 10;
 			}
+			x -= left_edge;
+			cur.setLeftEdge(left_edge);
 		}
 
-		RowPainter rp(pi, *text_, pit, row, bidi, new_x, y);
+		RowPainter rp(pi, *text_, pit, row, bidi, x, y);
 
 		if (selection)
 			row.setSelectionAndMargins(sel_beg_par, sel_end_par);
 		else
 			row.setSelection(-1, -1);
-		
+
 		// The row knows nothing about the paragraph, so we have to check
 		// whether this row is the first or last and update the margins.
 		if (row.selection()) {
@@ -2183,7 +2164,10 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 
 		// Row signature; has row changed since last paint?
 		row.setCrc(pm.computeRowSignature(row, bparams));
-		bool row_has_changed = row.changed();
+		// If this row has been rememebered in cursor, it has
+		// to be redone
+		bool const row_has_changed
+			= row.changed() || &row == cur.getPreviousRow();
 
 		// Take this opportunity to spellcheck the row contents.
 		if (row_has_changed && lyxrc.spellcheck_continuously) {
@@ -2206,7 +2190,7 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 			pi.pain.fillRectangle(x, y - row.ascent(),
 				width(), row.height(), pi.background_color);
 		}
-		
+
 		// Instrumentation for testing row cache (see also
 		// 12 lines lower):
 		if (lyxerr.debugging(Debug::PAINTING) && inside

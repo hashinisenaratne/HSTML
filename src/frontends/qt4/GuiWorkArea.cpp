@@ -627,6 +627,13 @@ void GuiWorkArea::Private::showCursor()
 		&& !completer_->inlineVisible();
 	cursor_visible_ = true;
 	cursor_->recomputeWidth();
+	
+	int cur_x = buffer_view_->getPos(cur).x_;
+
+	// We may have decided to slide the cursor row so that cursor
+	// is visible.
+	p.x_ = cur_x - cur.getLeftEdge();
+
 	showCursor(p.x_, p.y_, h, l_shape, isrtl, completable);
 }
 
@@ -1980,7 +1987,7 @@ void TabWorkArea::updateTabTexts()
 	for (It it = paths.begin(); it != paths.end(); ++it) {
 		int const tab_index = it->tab();
 		Buffer const & buf = workArea(tab_index)->bufferView().buffer();
-		QString tab_text = it->displayString().replace("&", "&&");
+		QString tab_text = it->displayString();
 		if (!buf.fileName().empty() && !buf.isClean())
 			tab_text += "*";
 		setTabText(tab_index, tab_text);

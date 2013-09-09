@@ -4,10 +4,10 @@
  * Licence details can be found in the file COPYING.
  *
  * \author Alfredo Braunstein
- * \author Lars Gullik Bjønnes
+ * \author Lars Gullik BjÃ¸nnes
  * \author John Levon
- * \author André Pönitz
- * \author Jürgen Vigna
+ * \author AndrÃ© PÃ¶nitz
+ * \author JÃ¼rgen Vigna
  *
  * Full author contact details are available in file CREDITS.
  */
@@ -2846,6 +2846,9 @@ void BufferView::draw(frontend::Painter & pain)
 	TextMetrics const & tm = d->text_metrics_[&text];
 	int const y = tm.first().second->position();
 	PainterInfo pi(this, pain);
+
+	// Set the row on which the cursor lives.
+	cursor().setCurrentRow(&cursor().bottomRow());
 
 	switch (d->update_strategy_) {
 
