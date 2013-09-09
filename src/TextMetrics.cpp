@@ -2087,6 +2087,7 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 	size_t const nrows = pm.rows().size();
 
 	Cursor const & cur = bv_->cursor();
+	//Cursor & cur = pi.bv_.cursor();
 	DocIterator sel_beg = cur.selectionBegin();
 	DocIterator sel_end = cur.selectionEnd();
 	bool selection = cur.selection()
@@ -2111,14 +2112,6 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 			sel_end_par.pos() = sel_end_par.lastpos();
 		}
 	}
-	
-	// Get the top-level row in which the cursor is, that is the
-	// one that is not indide insets. This code is adapted from
-	// Cursor::textRow.
-	CursorSlice const & cs = cur.bottom();
-	ParagraphMetrics const & bottom_pm = cur.bv().parMetrics(cs.text(), cs.pit());
-	bool const bndry = (cur.depth() == 1) &&  cur.boundary();
-	Row const & cur_bottom_row = bottom_pm.getRow(cs.pos(), bndry);
 
 	for (size_t i = 0; i != nrows; ++i) {
 
@@ -2128,30 +2121,29 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 
 		bool const inside = (y + row.descent() >= 0
 			&& y - row.ascent() < ww);
+
 		// It is not needed to draw on screen if we are not inside.
 		pi.pain.setDrawingEnabled(inside && original_drawing_state);
 
-		BufferView & bv = cur.bv();
-
-		// Current x position of the cursor in pixels
-		int cur_x = bv.getPos(cur).x_;
-
-		// Left edge value of the screen in pixels
-		int left_edge = cur.getLeftEdge();
-
 		// Check for too wide insets to handle horizontal sliding
-   		if (&cur_bottom_row == &row)
-		{
+   		if (cur.getCurrentRow() == &row) {
+			// Current x position of the cursor in pixels
+			int const cur_x = bv_->getPos(cur).x_;
+ 
+			// Left edge value of the screen in pixels
+			int left_edge = cur.getLeftEdge();
+
 			// If need to slide right
     			if (cur_x < left_edge + 10) {
-				cur.setLeftEdge(cur_x - 10);
+				left_edge = cur_x - 10;
 			}
 
 			// If need to slide left ()
-			else if (cur_x > left_edge + bv.workWidth() - 10) {
-				cur.setLeftEdge(cur_x - bv.workWidth() + 10);
+			else if (cur_x > left_edge + bv_->workWidth() - 10) {
+				left_edge = cur_x - bv_->workWidth() + 10;
 			}
 			x -= left_edge;
+			cur.setLeftEdge(left_edge);
 		}
 
 		RowPainter rp(pi, *text_, pit, row, bidi, x, y);
@@ -2172,7 +2164,10 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 
 		// Row signature; has row changed since last paint?
 		row.setCrc(pm.computeRowSignature(row, bparams));
-		bool row_has_changed = row.changed();
+		// If this row has been rememebered in cursor, it has
+		// to be redone
+		bool const row_has_changed
+			= row.changed() || &row == cur.getPreviousRow();
 
 		// Take this opportunity to spellcheck the row contents.
 		if (row_has_changed && lyxrc.spellcheck_continuously) {

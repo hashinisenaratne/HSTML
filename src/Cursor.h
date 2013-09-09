@@ -19,6 +19,8 @@
 
 #include "mathed/MathParser_flags.h"
 
+//#include "Row.h"
+
 
 namespace lyx {
 
@@ -183,15 +185,22 @@ public:
 	void getSurroundingPos(pos_type & left_pos, pos_type & right_pos);
 	/// the row in the paragraph we're in
 	Row const & textRow() const;
+	/// the top-level row that holds the cursor
+	Row const & bottomRow() const;
+
+	///
+	/// Methods useful for horizontal scrolling of rows
+	///
 	/// returns the pixel value at the left edge of the screen
 	int getLeftEdge() const;
 	/// set the pixel value at the left edge of the screen
 	void setLeftEdge(int leftEdge) const;
-	void setLeftEdge(int leftEdge);
-	/// returns the row which slid finally
-	Row const & getCurrentRow() const;
-	/// set the row which slid finally
-	void setCurrentRow(Row const & wideRow) const;
+	/// return the row where cursor is currently
+	Row const * getCurrentRow() const;
+	/// set the row where cursor is currently
+	void setCurrentRow(Row const * wideRow) const;
+	/// return the row where cursor was at previous draw event
+	Row const * getPreviousRow() const;
 
 	//
 	// common part
@@ -405,9 +414,11 @@ private:
 	int beforeDispatchPosX_;
 	int beforeDispatchPosY_;
 	/// the the pixel value at the left edge of the screen where the cursor is in
-	int left_edge_;
-	/// a pointer to the row which slid finally
-	Row * current_row_;
+	mutable int left_edge_;
+	/// a pointer to the row where cursor is currently
+	mutable Row const * current_row_;
+	/// a pointer to the row where cursor was at previous draw event
+	mutable Row const * previous_row_;
 
 ///////////////////////////////////////////////////////////////////
 //

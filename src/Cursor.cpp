@@ -543,33 +543,57 @@ Row const & Cursor::textRow() const
 }
 
 
+Row const & Cursor::bottomRow() const
+{
+	CursorSlice const & cs = bottom();
+	ParagraphMetrics const & pm = bv().parMetrics(cs.text(), cs.pit());
+	bool const bndry = inTexted() ? boundary() : false;
+	return pm.getRow(cs.pos(), bndry);
+}
+
+
 int Cursor::getLeftEdge() const
 {
 	return left_edge_;
 }
 
 
-Row const & Cursor::getCurrentRow() const
+Row const * Cursor::getCurrentRow() const
 {
-	return *current_row_;
+	return current_row_;
 }
 
 
-void Cursor::setLeftEdge(int leftEdge)
+Row const * Cursor::getPreviousRow() const
 {
-	left_edge_ = leftEdge;
+	return previous_row_;
 }
 
 
 void Cursor::setLeftEdge(int leftEdge) const
 {
-	const_cast<Cursor *>(this)->setLeftEdge(leftEdge);
+	left_edge_ = leftEdge;
 }
 
 
-void Cursor::setCurrentRow(Row const & wideRow) const
+void Cursor::setCurrentRow(Row const * wideRow) const
 {
-	*current_row_ = wideRow;
+	// nothing to do if the cursor was already on this row
+	if (current_row_ == wideRow) {
+		previous_row_ = 0;
+		return;
+	}
+
+	// if the (previous) current row was scrolled, we have to
+	// remember it in order to repaint it next time.
+	if (left_edge_ != 0)
+		previous_row_ = current_row_;
+	else
+		previous_row_ = 0;
+
+	// Since we changed row, the scroll offset is not valid anymore
+	left_edge_ = 0;
+	current_row_ = wideRow;
 }
 
 
