@@ -2856,7 +2856,7 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	pi.pain.setDrawingEnabled(false);
 	// No need to care about vertical position.
 	RowPainter rp(pi, bv.buffer().text(), cur.bottom().pit(), row, bidi, 0, 0);
-	rp.paintOnlyInsets();
+	rp.paintText();
 	pi.pain.setDrawingEnabled(drawing);
 
 	// Current x position of the cursor in pixels
@@ -2873,14 +2873,6 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	// If need to slide left ()
 	else if (cur_x > left_edge + bv.workWidth() - 10) {
 		left_edge = cur_x - bv.workWidth() + 10;
-	}
-
-	if (cur.getLeftEdge() != left_edge
-	    && strategy == NoScreenUpdate) {
-		ScreenUpdateStrategy const oldstrat = strategy;
-		strategy = SingleParUpdate;
-		LYXERR0("leftEdge: " << cur.getLeftEdge() << " => " << left_edge
-			<< ", Update strategy " << oldstrat << " => " << strategy);
 	}
 
 	cur.setLeftEdge(left_edge);
