@@ -16,6 +16,7 @@
 
 #include "BufferView.h"
 
+#include "Bidi.h"
 #include "BranchList.h"
 #include "Buffer.h"
 #include "buffer_funcs.h"
@@ -24,6 +25,7 @@
 #include "CoordCache.h"
 #include "Cursor.h"
 #include "CutAndPaste.h"
+#include "rowpainter.h"
 #include "DispatchResult.h"
 #include "ErrorList.h"
 #include "factory.h"
@@ -454,9 +456,11 @@ void BufferView::processUpdateFlags(Update::flags flags)
 			buffer_.changed(false);
 			return;
 		}
-		// no screen update is needed.
-		d->update_strategy_ = NoScreenUpdate;
-		return;
+		// no screen update is needed in principle, but this
+		// could change if cursor row needs scrolling.
+ 		d->update_strategy_ = NoScreenUpdate;
+		buffer_.changed(false);
+ 		return;
 	}
 
 	bool const full_metrics = flags & Update::Force || !singleParUpdate();
@@ -2835,6 +2839,54 @@ bool BufferView::cursorInView(Point const & p, int h) const
 	return true;
 }
 
+namespace {
+
+void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
+			 ScreenUpdateStrategy & strategy)
+{
+	Bidi bidi;
+	Row const & row = cur.bottomRow();
+	BufferView const & bv = cur.bv();
+
+	// Set the row on which the cursor lives.
+	cur.setCurrentRow(&row);
+
+	// Force the recomputation of inset positions
+	bool const drawing = pi.pain.isDrawingEnabled();
+	pi.pain.setDrawingEnabled(false);
+	// No need to care about vertical position.
+	RowPainter rp(pi, bv.buffer().text(), cur.bottom().pit(), row, bidi, 0, 0);
+	rp.paintOnlyInsets();
+	pi.pain.setDrawingEnabled(drawing);
+
+	// Current x position of the cursor in pixels
+	int const cur_x = bv.getPos(cur).x_;
+
+	// Left edge value of the screen in pixels
+	int left_edge = cur.getLeftEdge();
+
+	// If need to slide right
+	if (cur_x < left_edge + 10) {
+		left_edge = cur_x - 10;
+	}
+
+	// If need to slide left ()
+	else if (cur_x > left_edge + bv.workWidth() - 10) {
+		left_edge = cur_x - bv.workWidth() + 10;
+	}
+
+	if (cur.getLeftEdge() != left_edge
+	    && strategy == NoScreenUpdate) {
+		ScreenUpdateStrategy const oldstrat = strategy;
+		strategy = SingleParUpdate;
+		LYXERR0("leftEdge: " << cur.getLeftEdge() << " => " << left_edge
+			<< ", Update strategy " << oldstrat << " => " << strategy);
+	}
+
+	cur.setLeftEdge(left_edge);
+}
+
+}
 
 void BufferView::draw(frontend::Painter & pain)
 {
@@ -2847,8 +2899,9 @@ void BufferView::draw(frontend::Painter & pain)
 	int const y = tm.first().second->position();
 	PainterInfo pi(this, pain);
 
-	// Set the row on which the cursor lives.
-	cursor().setCurrentRow(&cursor().bottomRow());
+	// Check whether the row where the cursor lives needs to be scrolled.
+	// Update the drawing strategy if needed.
+	checkCursorLeftEdge(pi, d->cursor_, d->update_strategy_);
 
 	switch (d->update_strategy_) {
 
@@ -2874,26 +2927,24 @@ void BufferView::draw(frontend::Painter & pain)
 		// because of the single backing pixmap.
 
 	case FullScreenUpdate:
-		for(int i = 0; i < 2; i++) {
-			// The whole screen, including insets, will be refreshed.
-			pi.full_repaint = true;
-	
-			// Clear background.
-			pain.fillRectangle(0, 0, width_, height_,
-				pi.backgroundColor(&buffer_.inset()));
-	
-			// Draw everything.
-			tm.draw(pi, 0, y);
-	
-			// and possibly grey out below
-			pair<pit_type, ParagraphMetrics const *> lastpm = tm.last();
-			int const y2 = lastpm.second->position() + lastpm.second->descent();
-			
-			if (y2 < height_) {
-				Color color = buffer().isInternal() 
-					? Color_background : Color_bottomarea;
-				pain.fillRectangle(0, y2, width_, height_ - y2, color);
-			}
+		// The whole screen, including insets, will be refreshed.
+		pi.full_repaint = true;
+
+		// Clear background.
+		pain.fillRectangle(0, 0, width_, height_,
+			pi.backgroundColor(&buffer_.inset()));
+
+		// Draw everything.
+		tm.draw(pi, 0, y);
+
+		// and possibly grey out below
+		pair<pit_type, ParagraphMetrics const *> lastpm = tm.last();
+		int const y2 = lastpm.second->position() + lastpm.second->descent();
+		
+		if (y2 < height_) {
+			Color color = buffer().isInternal() 
+				? Color_background : Color_bottomarea;
+			pain.fillRectangle(0, y2, width_, height_ - y2, color);
 		}
 		break;
 	}

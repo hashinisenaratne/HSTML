@@ -2122,29 +2122,12 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 		bool const inside = (y + row.descent() >= 0
 			&& y - row.ascent() < ww);
 
+		// Adapt to cursor row left edge if applicable.
+		if (cur.getCurrentRow() == &row)
+			x -= cur.getLeftEdge();
+
 		// It is not needed to draw on screen if we are not inside.
 		pi.pain.setDrawingEnabled(inside && original_drawing_state);
-
-		// Check for too wide insets to handle horizontal sliding
-   		if (cur.getCurrentRow() == &row) {
-			// Current x position of the cursor in pixels
-			int const cur_x = bv_->getPos(cur).x_;
- 
-			// Left edge value of the screen in pixels
-			int left_edge = cur.getLeftEdge();
-
-			// If need to slide right
-    			if (cur_x < left_edge + 10) {
-				left_edge = cur_x - 10;
-			}
-
-			// If need to slide left ()
-			else if (cur_x > left_edge + bv_->workWidth() - 10) {
-				left_edge = cur_x - bv_->workWidth() + 10;
-			}
-			x -= left_edge;
-			cur.setLeftEdge(left_edge);
-		}
 
 		RowPainter rp(pi, *text_, pit, row, bidi, x, y);
 
