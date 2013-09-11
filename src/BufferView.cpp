@@ -2847,6 +2847,7 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	Bidi bidi;
 	Row const & row = cur.bottomRow();
 	BufferView const & bv = cur.bv();
+	bool row_need_slide = false;
 
 	// Set the row on which the cursor lives.
 	cur.setCurrentRow(&row);
@@ -2868,11 +2869,20 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	// If need to slide right
 	if (cur_x < left_edge + 10) {
 		left_edge = cur_x - 10;
+		row_need_slide = true;
 	}
 
 	// If need to slide left ()
 	else if (cur_x > left_edge + bv.workWidth() - 10) {
 		left_edge = cur_x - bv.workWidth() + 10;
+		row_need_slide = true;
+	}
+
+	if (cur.getCurrentRow() != cur.getPreviousRow() 
+		&& strategy == NoScreenUpdate
+		&& row_need_slide) {
+			ScreenUpdateStrategy const oldstrat = strategy;
+			strategy = FullScreenUpdate;
 	}
 
 	cur.setLeftEdge(left_edge);
