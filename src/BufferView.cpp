@@ -2874,26 +2874,24 @@ void BufferView::draw(frontend::Painter & pain)
 		// because of the single backing pixmap.
 
 	case FullScreenUpdate:
-		for(int i = 0; i < 2; i++) {
-			// The whole screen, including insets, will be refreshed.
-			pi.full_repaint = true;
-	
-			// Clear background.
-			pain.fillRectangle(0, 0, width_, height_,
-				pi.backgroundColor(&buffer_.inset()));
-	
-			// Draw everything.
-			tm.draw(pi, 0, y);
-	
-			// and possibly grey out below
-			pair<pit_type, ParagraphMetrics const *> lastpm = tm.last();
-			int const y2 = lastpm.second->position() + lastpm.second->descent();
-			
-			if (y2 < height_) {
-				Color color = buffer().isInternal() 
-					? Color_background : Color_bottomarea;
-				pain.fillRectangle(0, y2, width_, height_ - y2, color);
-			}
+		// The whole screen, including insets, will be refreshed.
+		pi.full_repaint = true;
+
+		// Clear background.
+		pain.fillRectangle(0, 0, width_, height_,
+			pi.backgroundColor(&buffer_.inset()));
+
+		// Draw everything.
+		tm.draw(pi, 0, y);
+
+		// and possibly grey out below
+		pair<pit_type, ParagraphMetrics const *> lastpm = tm.last();
+		int const y2 = lastpm.second->position() + lastpm.second->descent();
+		
+		if (y2 < height_) {
+			Color color = buffer().isInternal() 
+				? Color_background : Color_bottomarea;
+			pain.fillRectangle(0, y2, width_, height_ - y2, color);
 		}
 		break;
 	}
