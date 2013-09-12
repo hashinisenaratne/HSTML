@@ -592,7 +592,8 @@ void Cursor::setCurrentRow(Row const * wideRow) const
 		previous_row_ = 0;
 
 	// Since we changed row, the scroll offset is not valid anymore
-	left_edge_ = 0;
+	if (!selectionEnd().inMathed())
+		left_edge_ = 0;
 	current_row_ = wideRow;
 }
 
