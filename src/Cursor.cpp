@@ -6,8 +6,9 @@
  * \author Alejandro Aguilar Sierra
  * \author Alfredo Braunstein
  * \author Dov Feldstern
- * \author AndrÃ© PÃ¶nitz
+ * \author André Pönitz
  * \author Stefan Schimanski
+ * \author Hashini Senaratne
  *
  * Full author contact details are available in file CREDITS.
  */
@@ -538,17 +539,18 @@ Row const & Cursor::textRow() const
 {
 	CursorSlice const & cs = innerTextSlice();
 	ParagraphMetrics const & pm = bv().parMetrics(cs.text(), cs.pit());
-	bool const bndry = inTexted() ? boundary() : false;
-	return pm.getRow(cs.pos(), bndry);
+	return pm.getRow(cs.pos(), boundary() && cs == top());
 }
 
 
+// Returns the top-level row in which the cursor is, that is the
+// one that is not indide insets. This code is adapted from
+// Cursor::textRow. 
 Row const & Cursor::bottomRow() const
 {
 	CursorSlice const & cs = bottom();
 	ParagraphMetrics const & pm = bv().parMetrics(cs.text(), cs.pit());
-	bool const bndry = inTexted() ? boundary() : false;
-	return pm.getRow(cs.pos(), bndry);
+	return pm.getRow(cs.pos(), boundary() && cs == top());
 }
 
 
@@ -592,8 +594,7 @@ void Cursor::setCurrentRow(Row const * wideRow) const
 		previous_row_ = 0;
 
 	// Since we changed row, the scroll offset is not valid anymore
-	if (!selectionEnd().inMathed())
-		left_edge_ = 0;
+	left_edge_ = 0;
 	current_row_ = wideRow;
 }
 

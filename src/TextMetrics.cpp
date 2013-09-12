@@ -7,10 +7,11 @@
  * \author Lars Gullik BjÃ¸nnes
  * \author Jean-Marc Lasgouttes
  * \author John Levon
- * \author AndrÃ© PÃ¶nitz
+ * \author André Pönitz
  * \author Dekel Tsur
- * \author JÃ¼rgen Vigna
+ * \author Jürgen Vigna
  * \author Abdelrazak Younes
+ * \author Hashini Senaratne
  *
  * Full author contact details are available in file CREDITS.
  */

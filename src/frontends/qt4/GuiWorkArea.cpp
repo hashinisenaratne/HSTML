@@ -5,6 +5,7 @@
  *
  * \author John Levon
  * \author Abdelrazak Younes
+ * \author Hashini Senaratne
  *
  * Full author contact details are available in file CREDITS.
  */
@@ -628,11 +629,14 @@ void GuiWorkArea::Private::showCursor()
 	cursor_visible_ = true;
 	cursor_->recomputeWidth();
 	
+	// Current x position of the cursor in pixels
 	int cur_x = buffer_view_->getPos(cur).x_;
 
-	// We may have decided to slide the cursor row so that cursor
-	// is visible.
-	p.x_ = cur_x - cur.getLeftEdge();
+	// Left edge value of the screen in pixels
+	int left_edge = cur.getLeftEdge();
+	
+	// Slide the cursor so that the cursor is visible even scrolled rows
+	p.x_ = cur_x - left_edge;
 
 	showCursor(p.x_, p.y_, h, l_shape, isrtl, completable);
 }
