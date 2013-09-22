@@ -2852,6 +2852,11 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	Row const & row = cur.bottomRow();
 	BufferView const & bv = cur.bv();
 	
+	// Left edge value of the screen in pixels
+	int left_edge = cur.getLeftEdge();
+
+	bool row_moved = false;
+	
 	// Set the row on which the cursor lives.
 	cur.setCurrentRow(&row);
 
@@ -2866,14 +2871,13 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	rp.paintText();
 	// Reset drawing to enable state
 	pi.pain.setDrawingEnabled(drawing);
+	
+	if(left_edge != cur.getLeftEdge() 
+		&& !cur.selectionEnd().inMathed())
+			return;
 
 	// Current x position of the cursor in pixels
 	int const cur_x = bv.getPos(cur).x_;
-	
-	// Left edge value of the screen in pixels
-	int left_edge = cur.getLeftEdge();
-
-	bool row_moved = false;
 
 	// If need to slide right
 	// When the selected cursor position is leftward to visible screen
