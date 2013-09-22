@@ -2851,19 +2851,9 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	// that is the one that is not indide insets. 
 	Row const & row = cur.bottomRow();
 	BufferView const & bv = cur.bv();
-	bool row_moved = false;
-
-	// Left edge value of the screen in pixels
-	int left_edge = cur.getLeftEdge();
 	
 	// Set the row on which the cursor lives.
 	cur.setCurrentRow(&row);
-	
-	// If the row has changed, return without drawing
-	if (cur.getLeftEdge() == 0 
-		&& left_edge != 0) {
-			return;
-	}
 
 	// Force the recomputation of inset positions
 	// Otherwise needed scrolling does not happen,
@@ -2879,6 +2869,11 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 
 	// Current x position of the cursor in pixels
 	int const cur_x = bv.getPos(cur).x_;
+	
+	// Left edge value of the screen in pixels
+	int left_edge = cur.getLeftEdge();
+
+	bool row_moved = false;
 
 	// If need to slide right
 	// When the selected cursor position is leftward to visible screen
@@ -2897,7 +2892,8 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	// Change painting strategy where needed to show scrolled areas
 	// Gets called, moving from a row below to a too wide row, 
 	// Home/ End key presses, moving aound too wide images and labels
-	if (strategy == NoScreenUpdate && row_moved) {
+	if (strategy == NoScreenUpdate 
+		&& (row_moved || cur.getPreviousRow())) {
 			strategy = FullScreenUpdate;
 	}
 
