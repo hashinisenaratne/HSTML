@@ -2850,15 +2850,12 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	// Get the top-level row in which the cursor is, 
 	// that is the one that is not indide insets. 
 	Row const & row = cur.bottomRow();
+	CursorSlice rowSlice = cur.bottom();
+	rowSlice.pos() = row.pos();
 	BufferView const & bv = cur.bv();
 	
-	// Left edge value of the screen in pixels
-	int left_edge = cur.getLeftEdge();
-
-	bool row_moved = false;
-	
 	// Set the row on which the cursor lives.
-	cur.setCurrentRow(&row);
+	cur.setCurrentRowSlice(rowSlice);
 
 	// Force the recomputation of inset positions
 	// Otherwise needed scrolling does not happen,
@@ -2871,16 +2868,14 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	rp.paintText();
 	// Reset drawing to enable state
 	pi.pain.setDrawingEnabled(drawing);
-	
-	// If the row has changed, return without drawing
-	// Do not so in math and table insets
-	if(left_edge != cur.getLeftEdge() 
-		&& !cur.selectionEnd().inMathed() 
-		&& cur.selectionEnd().idx() == 0)
-			return;
 
 	// Current x position of the cursor in pixels
 	int const cur_x = bv.getPos(cur).x_;
+	
+	// Left edge value of the screen in pixels
+	int left_edge = cur.getLeftEdge();
+
+	bool row_moved = false;
 
 	// If need to slide right
 	// When the selected cursor position is leftward to visible screen
@@ -2900,7 +2895,7 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	// Gets called, moving from a row below to a too wide row, 
 	// Home/ End key presses, moving aound too wide images and labels
 	if (strategy == NoScreenUpdate 
-		&& (row_moved || cur.getPreviousRow())) {
+		&& (row_moved || !cur.getPreviousRowSlice().empty())){
 			strategy = FullScreenUpdate;
 	}
 
