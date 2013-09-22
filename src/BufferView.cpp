@@ -2890,6 +2890,11 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 		left_edge = cur_x - bv.workWidth() + 10;
 		row_moved = true;
 	}
+	
+	else if(row.width() - left_edge < bv.workWidth() && left_edge > 0){
+		left_edge = row.width() - bv.workWidth();
+		row_moved = true;
+	}
 
 	// Change painting strategy where needed to show scrolled areas
 	// Gets called, moving from a row below to a too wide row, 
