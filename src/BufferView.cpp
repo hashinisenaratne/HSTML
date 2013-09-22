@@ -2872,8 +2872,11 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	// Reset drawing to enable state
 	pi.pain.setDrawingEnabled(drawing);
 	
+	// If the row has changed, return without drawing
+	// Do not so in math and table insets
 	if(left_edge != cur.getLeftEdge() 
-		&& !cur.selectionEnd().inMathed())
+		&& !cur.selectionEnd().inMathed() 
+		&& cur.selectionEnd().idx() == 0)
 			return;
 
 	// Current x position of the cursor in pixels
