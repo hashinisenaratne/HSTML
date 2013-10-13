@@ -6,8 +6,9 @@
  * \author Alfredo Braunstein
  * \author Lars Gullik BjÃ¸nnes
  * \author John Levon
- * \author AndrÃ© PÃ¶nitz
- * \author JÃ¼rgen Vigna
+ * \author André Pönitz
+ * \author Jürgen Vigna
+ * \author Hashini Senaratne
  *
  * Full author contact details are available in file CREDITS.
  */
@@ -2841,38 +2842,66 @@ bool BufferView::cursorInView(Point const & p, int h) const
 
 namespace {
 
+// Method to set the left edge before draw a too wide row
 void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 			 ScreenUpdateStrategy & strategy)
 {
 	Bidi bidi;
+	// Get the top-level row in which the cursor is, 
+	// that is the one that is not indide insets. 
 	Row const & row = cur.bottomRow();
+	CursorSlice rowSlice = cur.bottom();
+	rowSlice.pos() = row.pos();
 	BufferView const & bv = cur.bv();
-
+	
 	// Set the row on which the cursor lives.
-	cur.setCurrentRow(&row);
+	cur.setCurrentRowSlice(rowSlice);
 
 	// Force the recomputation of inset positions
+	// Otherwise needed scrolling does not happen,
+	// as math inset position calculations are done while drawing
 	bool const drawing = pi.pain.isDrawingEnabled();
+	// To paint without actual drawing
 	pi.pain.setDrawingEnabled(false);
 	// No need to care about vertical position.
 	RowPainter rp(pi, bv.buffer().text(), cur.bottom().pit(), row, bidi, 0, 0);
 	rp.paintText();
+	// Reset drawing to enable state
 	pi.pain.setDrawingEnabled(drawing);
 
 	// Current x position of the cursor in pixels
 	int const cur_x = bv.getPos(cur).x_;
-
+	
 	// Left edge value of the screen in pixels
 	int left_edge = cur.getLeftEdge();
 
+	bool row_moved = false;
+
 	// If need to slide right
+	// When the selected cursor position is leftward to visible screen
 	if (cur_x < left_edge + 10) {
 		left_edge = cur_x - 10;
+		row_moved = true;;
 	}
 
-	// If need to slide left ()
+	// If need to slide left
+	// When the selected cursor position is rightward to visible screen
 	else if (cur_x > left_edge + bv.workWidth() - 10) {
 		left_edge = cur_x - bv.workWidth() + 10;
+		row_moved = true;
+	}
+	
+	else if(row.width() - left_edge < bv.workWidth() && left_edge > 0){
+		left_edge = row.width() - bv.workWidth();
+		row_moved = true;
+	}
+
+	// Change painting strategy where needed to show scrolled areas
+	// Gets called, moving from a row below to a too wide row, 
+	// Home/ End key presses, moving aound too wide images and labels
+	if (strategy == NoScreenUpdate 
+		&& (row_moved || !cur.getPreviousRowSlice().empty())){
+			strategy = FullScreenUpdate;
 	}
 
 	cur.setLeftEdge(left_edge);

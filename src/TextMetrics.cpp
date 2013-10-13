@@ -7,10 +7,11 @@
  * \author Lars Gullik BjÃ¸nnes
  * \author Jean-Marc Lasgouttes
  * \author John Levon
- * \author AndrÃ© PÃ¶nitz
+ * \author André Pönitz
  * \author Dekel Tsur
- * \author JÃ¼rgen Vigna
+ * \author Jürgen Vigna
  * \author Abdelrazak Younes
+ * \author Hashini Senaratne
  *
  * Full author contact details are available in file CREDITS.
  */
@@ -2116,6 +2117,10 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 	for (size_t i = 0; i != nrows; ++i) {
 
 		Row const & row = pm.rows()[i];
+		CursorSlice rowSlice(const_cast<InsetText &>(text_->inset()));
+		rowSlice.pit() = pit;
+		rowSlice.pos() = row.pos();
+		
 		if (i)
 			y += row.ascent();
 
@@ -2123,7 +2128,7 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 			&& y - row.ascent() < ww);
 
 		// Adapt to cursor row left edge if applicable.
-		if (cur.getCurrentRow() == &row)
+		if (cur.getCurrentRowSlice() == rowSlice)
 			x -= cur.getLeftEdge();
 
 		// It is not needed to draw on screen if we are not inside.
@@ -2147,10 +2152,10 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 
 		// Row signature; has row changed since last paint?
 		row.setCrc(pm.computeRowSignature(row, bparams));
-		// If this row has been rememebered in cursor, it has
+		// If this row has been remembered in cursor, it has
 		// to be redone
 		bool const row_has_changed
-			= row.changed() || &row == cur.getPreviousRow();
+			= row.changed() || rowSlice == cur.getPreviousRowSlice();
 
 		// Take this opportunity to spellcheck the row contents.
 		if (row_has_changed && lyxrc.spellcheck_continuously) {

@@ -5136,7 +5136,7 @@ int InsetTabular::cellXPos(idx_type const cell) const
 
 void InsetTabular::resetPos(Cursor & cur) const
 {
-	BufferView & bv = cur.bv();
+	/*BufferView & bv = cur.bv();
 	int const maxwidth = bv.workWidth();
 
 	int const scx_old = scx_;
@@ -5160,7 +5160,7 @@ void InsetTabular::resetPos(Cursor & cur) const
 
 	// only update if offset changed
 	if (scx_ != scx_old)
-		cur.screenUpdateFlags(Update::Force | Update::FitCursor);
+		cur.screenUpdateFlags(Update::Force | Update::FitCursor);*/
 }
 
 

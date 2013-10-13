@@ -6,8 +6,9 @@
  * \author Alejandro Aguilar Sierra
  * \author Alfredo Braunstein
  * \author Dov Feldstern
- * \author AndrÃ© PÃ¶nitz
+ * \author André Pönitz
  * \author Stefan Schimanski
+ * \author Hashini Senaratne
  *
  * Full author contact details are available in file CREDITS.
  */
@@ -538,17 +539,18 @@ Row const & Cursor::textRow() const
 {
 	CursorSlice const & cs = innerTextSlice();
 	ParagraphMetrics const & pm = bv().parMetrics(cs.text(), cs.pit());
-	bool const bndry = inTexted() ? boundary() : false;
-	return pm.getRow(cs.pos(), bndry);
+	return pm.getRow(cs.pos(), boundary() && cs == top());
 }
 
 
+// Returns the top-level row in which the cursor is, that is the
+// one that is not indide insets. This code is adapted from
+// Cursor::textRow. 
 Row const & Cursor::bottomRow() const
 {
 	CursorSlice const & cs = bottom();
 	ParagraphMetrics const & pm = bv().parMetrics(cs.text(), cs.pit());
-	bool const bndry = inTexted() ? boundary() : false;
-	return pm.getRow(cs.pos(), bndry);
+	return pm.getRow(cs.pos(), boundary() && cs == top());
 }
 
 
@@ -558,15 +560,15 @@ int Cursor::getLeftEdge() const
 }
 
 
-Row const * Cursor::getCurrentRow() const
+CursorSlice const & Cursor::getCurrentRowSlice() const
 {
-	return current_row_;
+	return current_row_slice_;
 }
 
 
-Row const * Cursor::getPreviousRow() const
+CursorSlice const & Cursor::getPreviousRowSlice() const
 {
-	return previous_row_;
+	return previous_row_slice_;
 }
 
 
@@ -576,24 +578,24 @@ void Cursor::setLeftEdge(int leftEdge) const
 }
 
 
-void Cursor::setCurrentRow(Row const * wideRow) const
+void Cursor::setCurrentRowSlice(CursorSlice const & rowSlice) const
 {
 	// nothing to do if the cursor was already on this row
-	if (current_row_ == wideRow) {
-		previous_row_ = 0;
+	if (current_row_slice_ == rowSlice) {
+		previous_row_slice_ = CursorSlice();
 		return;
 	}
 
 	// if the (previous) current row was scrolled, we have to
 	// remember it in order to repaint it next time.
 	if (left_edge_ != 0)
-		previous_row_ = current_row_;
+		previous_row_slice_ = current_row_slice_;
 	else
-		previous_row_ = 0;
+		previous_row_slice_ = CursorSlice();
 
 	// Since we changed row, the scroll offset is not valid anymore
 	left_edge_ = 0;
-	current_row_ = wideRow;
+	current_row_slice_ = rowSlice;
 }
 
 
@@ -1898,10 +1900,8 @@ bool Cursor::upDownInMath(bool up)
 
 	// check if we had something else in mind, if not, this is the future
 	// target
-	if (x_target_ == -1){
+	if (x_target_ == -1)
 		setTargetX(xo);
-		left_edge_=0;
-	}
 	else if (inset().asInsetText() && xo - textTargetOffset() != x_target()) {
 		// In text mode inside the line (not left or right) possibly set a new target_x,
 		// but only if we are somewhere else than the previous target-offset.
@@ -2039,10 +2039,8 @@ bool Cursor::upDownInText(bool up, bool & updateNeeded)
 	// update the targetX - this is here before the "return false"
 	// to set a new target which can be used by InsetTexts above
 	// if we cannot move up/down inside this inset anymore
-	if (x_target_ == -1){
+	if (x_target_ == -1)
 		setTargetX(xo);
-		left_edge_=0;
-	}
 	else if (xo - textTargetOffset() != x_target() &&
 					 depth() == beforeDispatchCursor_.depth()) {
 		// In text mode inside the line (not left or right)

@@ -4,7 +4,8 @@
  * This file is part of LyX, the document processor.
  * Licence details can be found in the file COPYING.
  *
- * \author AndrÃ© PÃ¶nitz
+ * \author André Pönitz
+ * \author Hashini Senaratne
  *
  * Full author contact details are available in file CREDITS.
  */
@@ -195,12 +196,14 @@ public:
 	int getLeftEdge() const;
 	/// set the pixel value at the left edge of the screen
 	void setLeftEdge(int leftEdge) const;
-	/// return the row where cursor is currently
-	Row const * getCurrentRow() const;
-	/// set the row where cursor is currently
-	void setCurrentRow(Row const * wideRow) const;
-	/// return the row where cursor was at previous draw event
-	Row const * getPreviousRow() const;
+	/// return a slice describing the row where cursor is currently
+	CursorSlice  const & getCurrentRowSlice() const;
+	/// set the slice describing the row where cursor is currently
+	void setCurrentRowSlice(CursorSlice const & rowSlice) const;
+	/// return the row slice where cursor was at previous draw
+	/// event. Slice is empty if there is no need to redraw this
+	/// row.
+	CursorSlice const & getPreviousRowSlice() const;
 
 	//
 	// common part
@@ -415,10 +418,10 @@ private:
 	int beforeDispatchPosY_;
 	/// the the pixel value at the left edge of the screen where the cursor is in
 	mutable int left_edge_;
-	/// a pointer to the row where cursor is currently
-	mutable Row const * current_row_;
-	/// a pointer to the row where cursor was at previous draw event
-	mutable Row const * previous_row_;
+	/// a slice pointing to the start of the row where cursor is currently
+	mutable CursorSlice current_row_slice_;
+	/// a slice pointing to the start of the row where cursor was at previous draw event
+	mutable CursorSlice previous_row_slice_;
 
 ///////////////////////////////////////////////////////////////////
 //
