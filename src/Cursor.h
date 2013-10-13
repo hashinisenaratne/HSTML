@@ -225,8 +225,6 @@ public:
 	void getSurroundingPos(pos_type & left_pos, pos_type & right_pos);
 	/// the row in the paragraph we're in
 	Row const & textRow() const;
-	/// the top-level row that holds the cursor
-	Row const & bottomRow() const;
 
 	///
 	/// Methods useful for horizontal scrolling of rows

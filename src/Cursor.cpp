@@ -543,17 +543,6 @@ Row const & Cursor::textRow() const
 }
 
 
-// Returns the top-level row in which the cursor is, that is the
-// one that is not indide insets. This code is adapted from
-// Cursor::textRow. 
-Row const & Cursor::bottomRow() const
-{
-	CursorSlice const & cs = bottom();
-	ParagraphMetrics const & pm = bv().parMetrics(cs.text(), cs.pit());
-	return pm.getRow(cs.pos(), boundary() && cs == top());
-}
-
-
 int Cursor::getLeftEdge() const
 {
 	return left_edge_;

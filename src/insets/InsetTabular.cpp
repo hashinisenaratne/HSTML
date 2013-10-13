@@ -3436,14 +3436,14 @@ docstring InsetTableCell::xhtml(XHTMLStream & xs, OutputParams const & rp) const
 
 InsetTabular::InsetTabular(Buffer * buf, row_type rows,
 			   col_type columns)
-	: Inset(buf), tabular(buf, max(rows, row_type(1)), max(columns, col_type(1))), scx_(0), 
+	: Inset(buf), tabular(buf, max(rows, row_type(1)), max(columns, col_type(1))),
 	rowselect_(false), colselect_(false)
 {
 }
 
 
 InsetTabular::InsetTabular(InsetTabular const & tab)
-	: Inset(tab), tabular(tab.tabular),  scx_(0)
+	: Inset(tab), tabular(tab.tabular)
 {
 }
 
@@ -3694,11 +3694,10 @@ bool InsetTabular::isCellSelected(Cursor & cur, row_type row, col_type col)
 
 void InsetTabular::draw(PainterInfo & pi, int x, int y) const
 {
-	x += scx_ + ADD_TO_TABULAR_WIDTH;
+	x += ADD_TO_TABULAR_WIDTH;
 
 	BufferView * bv = pi.base.bv;
 	Cursor & cur = pi.base.bv->cursor();
-	resetPos(cur);
 
 	// FIXME: As the full background is painted in drawBackground(),
 	// we have no choice but to do a full repaint for the Text cells.
@@ -3746,7 +3745,7 @@ void InsetTabular::draw(PainterInfo & pi, int x, int y) const
 
 void InsetTabular::drawBackground(PainterInfo & pi, int x, int y) const
 {
-	x += scx_ + ADD_TO_TABULAR_WIDTH;
+	x += ADD_TO_TABULAR_WIDTH;
 	y += offset_valign_ - tabular.rowAscent(0);
 	pi.pain.fillRectangle(x, y, tabular.width(), tabular.height(),
 		pi.backgroundColor(this));
@@ -3756,16 +3755,13 @@ void InsetTabular::drawBackground(PainterInfo & pi, int x, int y) const
 void InsetTabular::drawSelection(PainterInfo & pi, int x, int y) const
 {
 	Cursor & cur = pi.base.bv->cursor();
-	resetPos(cur);
 
-	x += scx_ + ADD_TO_TABULAR_WIDTH;
+	x += ADD_TO_TABULAR_WIDTH;
 
 	if (!cur.selection())
 		return;
 	if (&cur.inset() != this)
 		return;
-
-	//resetPos(cur);
 
 	bool const full_cell_selected = isCellSelected(cur,
 		tabular.cellRow(cur.idx()), tabular.cellColumn(cur.idx()));
@@ -3870,7 +3866,6 @@ void InsetTabular::edit(Cursor & cur, bool front, EntryDirection)
 	}
 	cur.setCurrentFont();
 	// FIXME: this accesses the position cache before it is initialized
-	//resetPos(cur);
 	//cur.bv().fitCursor();
 }
 
@@ -5043,7 +5038,6 @@ void InsetTabular::cursorPos(BufferView const & bv,
 	x += cellXPos(sl.idx());
 	x += tabular.textHOffset(sl.idx());
 	x += ADD_TO_TABULAR_WIDTH;
-	x += scx_;
 }
 
 
@@ -5084,7 +5078,6 @@ Inset * InsetTabular::editXY(Cursor & cur, int x, int y)
 	cur.setSelection(false);
 	cur.push(*this);
 	cur.idx() = getNearestCell(cur.bv(), x, y);
-	resetPos(cur);
 	return cur.bv().textMetrics(&cell(cur.idx())->text()).editXY(cur, x, y);
 }
 
@@ -5134,36 +5127,6 @@ int InsetTabular::cellXPos(idx_type const cell) const
 }
 
 
-void InsetTabular::resetPos(Cursor & cur) const
-{
-	/*BufferView & bv = cur.bv();
-	int const maxwidth = bv.workWidth();
-
-	int const scx_old = scx_;
-	int const i = cur.find(this);
-	if (i == -1) {
-		scx_ = 0;
-	} else {
-		int const X1 = 0;
-		int const X2 = maxwidth;
-		int const offset = ADD_TO_TABULAR_WIDTH + 2;
-		int const x1 = xo(cur.bv()) + cellXPos(cur[i].idx()) + offset;
-		int const x2 = x1 + tabular.cellWidth(cur[i].idx());
-
-		if (x1 < X1)
-			scx_ = X1 + 20 - x1;
-		else if (x2 > X2)
-			scx_ = X2 - 20 - x2;
-		else
-			scx_ = 0;
-	}
-
-	// only update if offset changed
-	if (scx_ != scx_old)
-		cur.screenUpdateFlags(Update::Force | Update::FitCursor);*/
-}
-
-
 void InsetTabular::moveNextCell(Cursor & cur, EntryDirection entry_from)
 {
 	row_type const row = tabular.cellRow(cur.idx());
@@ -5198,7 +5161,6 @@ void InsetTabular::moveNextCell(Cursor & cur, EntryDirection entry_from)
 	if (cur.selIsMultiCell()) {
 		cur.pit() = cur.lastpit();
 		cur.pos() = cur.lastpos();
-		resetPos(cur);
 		return;
 	}
 
@@ -5221,7 +5183,6 @@ void InsetTabular::moveNextCell(Cursor & cur, EntryDirection entry_from)
 
 	}
 	cur.setCurrentFont();
-	resetPos(cur);
 }
 
 
@@ -5256,7 +5217,6 @@ void InsetTabular::movePrevCell(Cursor & cur, EntryDirection entry_from)
 	if (cur.selIsMultiCell()) {
 		cur.pit() = cur.lastpit();
 		cur.pos() = cur.lastpos();
-		resetPos(cur);
 		return;
 	}
 
@@ -5279,7 +5239,6 @@ void InsetTabular::movePrevCell(Cursor & cur, EntryDirection entry_from)
 
 	}
 	cur.setCurrentFont();
-	resetPos(cur);
 }
 
 
