@@ -459,7 +459,7 @@ void BufferView::processUpdateFlags(Update::flags flags)
 		}
 		// no screen update is needed in principle, but this
 		// could change if cursor row needs scrolling.
- 		d->update_strategy_ = NoScreenUpdate;
+		d->update_strategy_ = NoScreenUpdate;
 		buffer_.changed(false);
  		return;
 	}
@@ -2846,13 +2846,20 @@ namespace {
 void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 			 ScreenUpdateStrategy & strategy)
 {
-	Bidi bidi;
-	// Get the top-level row in which the cursor is, 
-	// that is the one that is not indide insets. 
-	Row const & row = cur.bottomRow();
-	CursorSlice rowSlice = cur.bottom();
-	rowSlice.pos() = row.pos();
 	BufferView const & bv = cur.bv();
+	// Get the top-level row in which the cursor is, 
+	// that is the one that is not inside insets. 
+	CursorSlice rowSlice = cur.bottom();
+	TextMetrics const & tm = bv.textMetrics(rowSlice.text());
+	
+	// Stop if metrics have not been computed yet, since it means
+	// that there is nothing to do.
+	if (!tm.contains(rowSlice.pit()))
+		return;
+	ParagraphMetrics const & pm = tm.parMetrics(rowSlice.pit());
+	Row const & row = pm.getRow(rowSlice.pos(),
+							cur.boundary() && rowSlice == cur.top());
+	rowSlice.pos() = row.pos();
 	
 	// Set the row on which the cursor lives.
 	cur.setCurrentRowSlice(rowSlice);
@@ -2864,6 +2871,7 @@ void checkCursorLeftEdge(PainterInfo & pi, Cursor const & cur,
 	// To paint without actual drawing
 	pi.pain.setDrawingEnabled(false);
 	// No need to care about vertical position.
+	Bidi bidi;
 	RowPainter rp(pi, bv.buffer().text(), cur.bottom().pit(), row, bidi, 0, 0);
 	rp.paintText();
 	// Reset drawing to enable state

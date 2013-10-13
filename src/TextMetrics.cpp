@@ -2088,7 +2088,6 @@ void TextMetrics::drawParagraph(PainterInfo & pi, pit_type pit, int x, int y) co
 	size_t const nrows = pm.rows().size();
 
 	Cursor const & cur = bv_->cursor();
-	//Cursor & cur = pi.bv_.cursor();
 	DocIterator sel_beg = cur.selectionBegin();
 	DocIterator sel_end = cur.selectionEnd();
 	bool selection = cur.selection()
