@@ -459,7 +459,7 @@ void BufferView::processUpdateFlags(Update::flags flags)
 		}
 		// no screen update is needed in principle, but this
 		// could change if cursor row needs scrolling.
- 		d->update_strategy_ = NoScreenUpdate;
+		d->update_strategy_ = NoScreenUpdate;
 		buffer_.changed(false);
  		return;
 	}
